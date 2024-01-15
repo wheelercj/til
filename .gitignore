@@ -1,0 +1,16 @@
+public
+resources/_gen
+*.lock
+hugo_stats.json
+jsconfig.json
+dist
+tmp
+
+hugo.exe
+hugo.darwin
+hugo.linux
+
+node_modules
+package-lock.json
+
+.DS_Store
