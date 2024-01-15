@@ -1,5 +1,5 @@
 +++
-title = 'Publishing Go Packages'
+title = 'Publishing Go packages'
 date = 2024-01-12T17:14:08-08:00
 +++
 
