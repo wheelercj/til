@@ -17,7 +17,7 @@ Here are the official docs on publishing to pkg.go.dev:
 
 * [Publishing Go Modules](https://tip.golang.org/blog/publishing-go-modules)
 * [Publishing a module](https://go.dev/doc/modules/publishing)
-    * The PowerShell equivalent of the command in step 6 is `> $env:GOPROXY="proxy.golang.org" && go list -m example.com/mymodule@v0.1.0`
+    * The PowerShell equivalent of the command in step 6 is {{< highlight powershell >}}$env:GOPROXY="proxy.golang.org" && go list -m example.com/mymodule@v0.1.0{{< /highlight >}}
 
 The package may take some time to appear in the package index because the servers are not always running at 100%. If you want to, you may be able to speed up indexing by searching for your package at pkg.go.dev, or especially by using `go get` on the package.
 
