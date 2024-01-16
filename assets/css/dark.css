@@ -1,0 +1,88 @@
+{{ if not (eq .Site.Params.dark "on") -}}
+@media (prefers-color-scheme: dark) {
+{{ end -}}
+html {
+    scrollbar-color: #6c6c6c #2e2e2e;
+}
+
+body {
+    color: #ebebeb;
+    background: #1e1e1e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header#banner a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+header#banner nav ul li a {
+    color: #cccccc;
+}
+
+main#content a {
+    color: #00b1ed;
+}
+
+main#content p {
+    color: #f5f5f5;
+}
+
+main#content hr {
+    background: #5c5c5c;
+}
+
+main#content #toc h4 {
+    color: #d4d4d4;
+}
+
+main#content ul#posts small {
+    color: #a7a7a7;
+}
+
+main#content ul#posts li a:hover {
+    color: #21c7ff;
+}
+
+main#content header#post-header div {
+    color: #a7a7a7;
+}
+
+/* Custom CSS that's not originally part of the Etch theme. */
+
+div.highlight pre,
+code {
+    background-color: #38383d;
+    border-radius: 6px;
+}
+
+img {
+    border-radius: 6px;
+}
+
+body .gist .gist-file,
+body .gist .gist-data,
+body .gist .highlight {
+    background: #2e2e2e;
+    border: none;
+}
+
+body .gist .blob-num {
+  color: #f5f5f5;
+  background-color: #3e3e3e;
+  pointer-events: none;
+}
+
+body .gist .gist-meta {
+    display: none;
+}
+
+body .gist .blob-code {
+  font-size: 14px;
+  filter: contrast(5%) brightness(140%) saturate(5000%);
+}
+
+{{- if not (eq .Site.Params.dark "on") -}}
+}
+{{- end -}}
