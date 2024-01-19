@@ -1,6 +1,7 @@
 +++
 title = 'How to build habits'
 date = 2020-06-27T22:59:02-08:00
+lastmod = 2021-05-11T18:22:58-08:00
 +++
 
 * Change your environment to make the habit easier to follow.

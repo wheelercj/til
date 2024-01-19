@@ -1,6 +1,7 @@
 +++
 title = 'How to make good flashcards'
 date = 2020-11-11T09:43:53-08:00
+lastmod = 2024-01-10T20:06:29-08:00
 +++
 
 * [How to write good prompts: using spaced repetition to create understanding](https://andymatuschak.org/prompts/) by Andy Matuschak

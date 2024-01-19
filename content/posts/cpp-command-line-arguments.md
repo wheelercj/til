@@ -1,6 +1,7 @@
 +++
 title = 'C++ command-line arguments'
 date = 2023-06-15T21:00:50-08:00
+lastmod = 2023-08-15T02:24:44-08:00
 +++
 
 ![custom-terminal-command-demo.png](/custom-terminal-command-demo.png)

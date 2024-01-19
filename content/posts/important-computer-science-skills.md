@@ -1,6 +1,7 @@
 +++
 title = 'Important Computer Science skills'
 date = 2020-06-25T09:58:56-08:00
+lastmod = 2023-07-16T06:34:16-08:00
 +++
 
 Here are some computer science skills that start to be helpful before they tend to be taught in classes.

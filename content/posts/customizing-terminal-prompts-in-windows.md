@@ -1,6 +1,7 @@
 +++
 title = 'Customizing terminal prompts in Windows'
 date = 2023-02-06T21:39:46-08:00
+lastmod = 2023-02-08T18:48:31-08:00
 +++
 
 Which looks better?

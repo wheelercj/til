@@ -1,6 +1,7 @@
 +++
-title = 'Intro to regex'
+title = 'Learning regex'
 date = 2021-05-06T23:50:05-08:00
+lastmod = 2023-06-30T04:19:06-08:00
 +++
 
 * ["Is it a must for every programmer to learn regular expressions?"](https://softwareengineering.stackexchange.com/questions/133968/is-it-a-must-for-every-programmer-to-learn-regular-expressions) on Stack Exchange

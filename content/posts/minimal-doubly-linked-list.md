@@ -1,6 +1,7 @@
 +++
 title = 'Minimal doubly linked list'
 date = 2022-10-22T13:56:52-08:00
+lastmod = 2022-11-20T05:52:35-08:00
 +++
 
 Below are relatively simple ways to create [doubly linked lists](https://en.wikipedia.org/wiki/Doubly_linked_list) in Python and C++.

@@ -1,6 +1,7 @@
 +++
 title = 'SMART goals'
 date = 2020-06-20T14:36:10-08:00
+lastmod = 2021-05-15T17:46:07-08:00
 +++
 
 Goals should be as specific as possible in terms of the what, when, why, and how of each goal.

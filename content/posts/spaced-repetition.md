@@ -1,6 +1,7 @@
 +++
 title = 'Spaced repetition'
 date = 2020-05-25T10:31:15-08:00
+lastmod = 2021-09-20T06:32:33-08:00
 +++
 
 Giving yourself a chance to _almost_ forget something you've learned before testing yourself on it again will help you learn faster. The more times you've reviewed something, the longer the time periods between each review should be. Software such as [Anki](https://apps.ankiweb.net/) and [Quizlet](https://quizlet.com/) help automate the process by figuring out how long those time periods in between reviews should be.

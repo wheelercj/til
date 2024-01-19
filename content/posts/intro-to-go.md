@@ -1,6 +1,7 @@
 +++
-title = 'Intro to Go'
+title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
+lastmod = 2024-01-15T07:53:06-08:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.

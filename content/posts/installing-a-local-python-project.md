@@ -1,6 +1,7 @@
 +++
 title = 'Installing a local Python project'
 date = 2022-03-22T10:34:36-08:00
+lastmod = 2022-11-29T06:55:00-08:00
 +++
 
 You can make your own projects installable into your other projects as if you had downloaded them from PyPI following these steps.

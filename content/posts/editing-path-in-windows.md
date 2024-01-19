@@ -1,6 +1,7 @@
 +++
 title = 'Editing PATH in Windows'
 date = 2022-04-29T18:53:53-08:00
+lastmod = 2023-08-14T18:56:23-08:00
 +++
 
 Environment variables such as PATH help organize computers to make important apps and files easier to access. You can edit PATH using a GUI or with PowerShell.

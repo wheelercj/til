@@ -1,6 +1,7 @@
 +++
 title = "Python's pycache"
 date = 2021-05-16T10:10:07-08:00
+lastmod = 2021-09-23T18:36:33-08:00
 +++
 
 When working on a python project, always add `__pycache__` to the gitignore! Better yet, start projects with a [.gitignore template](https://github.com/github/gitignore) for whichever language and tools you're using.

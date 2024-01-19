@@ -1,6 +1,7 @@
 +++
 title = 'How to quickly share code'
 date = 2021-05-22T14:36:00-08:00
+lastmod = 2022-03-12T02:19:14-08:00
 +++
 
 Sending entire files can be problematic sometimes. Here are other options.

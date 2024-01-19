@@ -1,6 +1,7 @@
 +++
-title = 'Intro to C or C++'
+title = 'Learning C or C++'
 date = 2022-11-28T10:53:33-08:00
+lastmod = 2022-11-29T07:05:47-08:00
 +++
 
 Here are various resources for learning C and C++. Since C++ is almost a superset of C, everything here is relevant to C++.

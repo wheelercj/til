@@ -1,6 +1,7 @@
 +++
 title = 'Scholarships'
 date = 2020-06-10T22:17:22-08:00
+lastmod = 2023-10-19T05:58:40-08:00
 +++
 
 Although the resources on this particular page are no longer added to or kept up to date, most scholarships go through cycles and will be open to applications again in the near future if they're not open now.

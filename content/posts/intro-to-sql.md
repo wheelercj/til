@@ -1,6 +1,7 @@
 +++
-title = 'Intro to SQL'
+title = 'Learning SQL'
 date = 2021-10-15T16:17:29-08:00
+lastmod = 2023-10-02T00:25:19-08:00
 +++
 
 SQL (Structured Query Language) is a commonly used and reliable way for programs to store and retrieve data. In many cases, it's much better in many ways than just using files directly.

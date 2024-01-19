@@ -1,6 +1,7 @@
 +++
-title = 'Intro to Python'
+title = 'Learning Python'
 date = 2022-01-09T12:37:27-08:00
+lastmod = 2022-11-20T05:57:17-08:00
 +++
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) by Al Sweigart

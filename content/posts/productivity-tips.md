@@ -1,6 +1,7 @@
 +++
 title = 'Productivity tips'
 date = 2020-05-28T14:43:19-08:00
+lastmod = 2021-09-20T06:32:48-08:00
 +++
 
 * Just get started.

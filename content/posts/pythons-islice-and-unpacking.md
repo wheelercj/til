@@ -1,6 +1,7 @@
 +++
 title = "Python's islice and unpacking"
 date = 2022-11-04T18:26:34-08:00
+lastmod = 2022-11-05T01:30:28-08:00
 +++
 
 ```python

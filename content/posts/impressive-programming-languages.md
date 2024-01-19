@@ -1,6 +1,7 @@
 +++
 title = 'Impressive programming languages'
 date = 2023-12-09T15:06:36-08:00
+lastmod = 2024-01-01T22:51:59-08:00
 +++
 
 Here's why some languages are impressive to me. (The languages are sorted alphabetically.)

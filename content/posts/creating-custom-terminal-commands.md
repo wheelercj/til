@@ -1,6 +1,7 @@
 +++
 title = 'Creating custom terminal commands'
 date = 2022-03-20T18:12:52-08:00
+lastmod = 2023-08-26T07:17:21-08:00
 +++
 
 Creating custom terminal commands can change having to type something long like this:
