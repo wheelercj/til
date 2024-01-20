@@ -1,12 +1,13 @@
 +++
 title = 'Productivity tips'
 date = 2020-05-28T14:43:19-08:00
-lastmod = 2021-09-20T06:32:48-08:00
+lastmod = 2024-01-19T20:42:11-08:00
 +++
 
 * Just get started.
     * You don't have to do a lot right now.
     * It doesn't have to be perfect.
+    * It might be easier than you're expecting.
     * If you _really_ don't feel like starting, then count to ten while relaxing and then start.
     * If you need to do something that will take only two minutes or less, do it right away.
 * Set a timer. Consider using the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique).
