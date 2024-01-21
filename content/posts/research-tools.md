@@ -1,7 +1,7 @@
 +++
 title = 'Research tools'
 date = 2020-06-19T10:52:07-08:00
-lastmod = 2023-06-17T21:54:45-08:00
+lastmod = 2024-01-21T00:33:31-08:00
 +++
 
 ## searching
@@ -25,10 +25,8 @@ lastmod = 2023-06-17T21:54:45-08:00
 
 ## reading and annotating
 
+* [Zotero](https://www.zotero.org/) – helps you collect, organize, annotate, cite, and share research.
 * [scite](https://www.scite.ai/) provides further context for citations in articles than the articles themselves provide.
 * [How to annotate literally everything](https://beepb00p.xyz/annotating.html) by beepb00p
 * [hypothes.is](https://web.hypothes.is/) – Collaborative annotating online. [beepb00p's comparison](https://beepb00p.xyz/annotating.html#comparison) between Hypothesis and other similar tools.
-
-## organizing
-
 * [StackEdit](https://stackedit.io/) – comments and realtime collaboration for markdown files.
