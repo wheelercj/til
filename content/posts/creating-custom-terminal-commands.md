@@ -63,7 +63,8 @@ function psql {
 
 # This runs a Python program. The $args at the end sends any inputs for the command from
 # the terminal to the program. If all the inputs should be in one string, you can put
-# double quotes around it: "$args".
+# double quotes around it: "$args". Note that any inputs with commas on the command-line
+# will still need quotes around them for all the input to be in one string.
 function rand {
     py C:/Users/chris/Documents/programming/rand/main.py $args
 }
