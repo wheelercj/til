@@ -10,4 +10,6 @@ Flashcard apps are great for small pieces of information, but [retrospective rev
 
 A closely related idea is _interleaving_: mixing up the order of what you learn helps you build more connections between those different topics.
 
-> Time after time, professors in mathematics and the sciences have told me that building well-ingrained chunks of expertise through practice and repetition was absolutely vital to their success. Understanding doesn’t build fluency; instead, fluency builds understanding. In fact, I believe that true understanding of a complex subject comes only from fluency. -- [Dr. Barbara Oakley](http://nautil.us/issue/17/big-bangs/how-i-rewired-my-brain-to-become-fluent-in-math-rd)
+> Time after time, professors in mathematics and the sciences have told me that building well-ingrained chunks of expertise through practice and repetition was absolutely vital to their success. Understanding doesn’t build fluency; instead, fluency builds understanding. In fact, I believe that true understanding of a complex subject comes only from fluency.
+> 
+> -- [Dr. Barbara Oakley](http://nautil.us/issue/17/big-bangs/how-i-rewired-my-brain-to-become-fluent-in-math-rd)
