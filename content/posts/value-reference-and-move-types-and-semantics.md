@@ -19,7 +19,7 @@ Let's say there are two variables, `a` and `b`, that have already been created a
 
 ## move semantics
 
-`a = b` relabels `b`'s data as belonging to `a`, making `b` empty. Some languages ([like C++](https://en.cppreference.com/w/cpp/utility/move)) may have a move function for move semantics: `a = move(b)`.
+`a = b` relabels `b`'s data as belonging to `a`, making `b` empty. Some languages ([like C++](https://en.cppreference.com/w/cpp/utility/move)) have a move function for move semantics: `a = move(b)`.
 
 ## assignment happens constantly
 
