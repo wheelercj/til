@@ -1,6 +1,7 @@
 +++
 title = 'Customizing a Hugo theme'
 date = 2024-01-15T15:47:01-08:00
+lastmod = 2024-01-27T12:24:04-08:00
 +++
 
 The [Etch](https://themes.gohugo.io/themes/etch/) theme is great, but I found a few ways to customize it so that it better meets my needs.
@@ -127,3 +128,7 @@ title = 'Customizing a Hugo theme'
 date = 2024-01-15T15:47:01-08:00
 lastmod = 2024-01-16T15:47:01-08:00
 ```
+
+## preventing iOS from turning numbers into links
+
+Apparently iPhones and iPads expect almost any number on a page to be a telephone number, and will automatically wrap anchor tags around it to turn it into a link. According to [this Stack Exchange discussion](https://webmasters.stackexchange.com/questions/4459/keep-iphone-browser-from-turning-numbers-into-links#4460), that can be prevented by adding `<meta name="format-detection" content="telephone=no" />` into the `head` element of each page. I found the Etch theme's `head` element in `/themes/etch/layouts/partials/head.html` and made my own copy of the file before editing as explained above.
