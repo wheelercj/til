@@ -28,9 +28,9 @@ body .gist .highlight {
 }
 
 body .gist .blob-num {
-  color: #f5f5f5;
-  background-color: #3e3e3e;
-  pointer-events: none;
+    color: #f5f5f5;
+    background-color: #3e3e3e;
+    pointer-events: none;
 }
 
 body .gist .gist-meta {
@@ -38,8 +38,8 @@ body .gist .gist-meta {
 }
 
 body .gist .blob-code {
-  font-size: 14px;
-  filter: contrast(5%) brightness(140%) saturate(5000%);
+    font-size: 14px;
+    filter: contrast(5%) brightness(140%) saturate(5000%);
 }
 ```
 
@@ -48,13 +48,54 @@ body .gist .blob-code {
 Dark Reader was putting a box around each page's content. This change made the box mostly invisible.
 
 ```diff
- body {
-     color: #ebebeb;
+body {
+    color: #ebebeb;
 -    background: #121212;
 +    background: #1e1e1e;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
- }
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+```
+
+## text color
+
+The bright text on the dark background was a little painful to read, so I made the text a little darker. The left half of the image below is the original color, and the right half is the new color.
+
+![text-color-change.png](/text-color-change.png)
+
+I also made links slightly darker.
+
+Here are the changes:
+
+```diff
+body {
+-    color: #ebebeb;
++    color: #c4c9ce;
+    background: #1e1e1e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header#banner a {
+-    color: #e0e0e0;
++    color: #c4c9ce;
+    text-decoration: none;
+}
+
+header#banner nav ul li a {
+-    color: #cccccc;
++    color: #c4c9ce;
+}
+
+main#content a {
+-    color: #00b1ed;
++    color: #20acdb;
+}
+
+main#content p {
+-    color: #f5f5f5;
++    color: #c4c9ce;
+}
 ```
 
 ## code block background color and border radius
