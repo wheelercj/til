@@ -44,7 +44,7 @@ Docker tends to be easier to use when you have a docker-compose.yml file and use
 * `docker container prune` to delete containers that failed.
 * `docker build -t imageName .` to build a new image in the current directory.
 * `docker run -it imageName` to create and run a container interactively.
-* `docker run -pd 12345:4000 --restart unless-stopped --name containerName imageName` to create and run a new container from an image, exposing port 12345 with internal app port 4000.
+* `docker run -pd 12345:4000 --restart unless-stopped --name containerName imageName` to create and run a new container from an image, exposing port `12345` with internal app port `4000`.
 
 ## pushing images to Docker Hub
 
