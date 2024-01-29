@@ -4,7 +4,26 @@ date = 2024-01-25T13:10:00-08:00
 lastmod = 2024-01-29T15:39:38-08:00
 +++
 
-I'm reading [What is Commit Signing in Git?](https://www.freecodecamp.org/news/what-is-commit-signing-in-git) by freeCodeCamp. I don't like using Git Bash directly, so I made a [[Git Bash in Windows Terminal custom profile]]. Later, I found other potentially helpful guides: [Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) by GitHub, and [7.4 Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) on Git's official site. [How (and why) to sign Git commits](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html), by Alessandro Segala, gives some examples of why to sign Git commits.
+I'm reading [What is Commit Signing in Git?](https://www.freecodecamp.org/news/what-is-commit-signing-in-git) by freeCodeCamp. It suggests using Git Bash.
+
+## custom Windows Terminal profile
+
+I don't like using Git Bash directly, so I made a custom Windows Terminal profile for Git Bash by following the instructions in [Using Git Bash with the Microsoft Terminal](https://scribe.rip/@techpreacher/using-git-bash-with-the-microsoft-terminal-bd1f71fa17a1) by Sascha Corti. I removed some unnecessary lines and made the `guid` string one line so that it was valid JSON. Also, Git Bash was opening to system 32 by default for some reason, so I found in [the official Windows Terminal docs](https://learn.microsoft.com/en-us/windows/terminal/customize-settings/profile-general) the `startingDirectory` property and what its value should be. Here's what I ended up with:
+
+```json
+{
+      "guid": "{00000000-0000-0000-0000-000000012345}",
+      "hidden": false,
+      "name": "Git Bash",
+      "commandline": "\"%PROGRAMFILES%\\git\\bin\\bash.exe\" --login -i -l",
+      "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
+      "startingDirectory": "%USERPROFILE%"
+}
+```
+
+## guides and tools for GPG keys
+
+Later, I found other potentially helpful guides: [Signing commits](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) by GitHub, and [7.4 Git Tools - Signing Your Work](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) on Git's official site. [How (and why) to sign Git commits](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html), by Alessandro Segala, gives some examples of why to sign Git commits.
 
 It sounds like [Gpg4win](https://www.gpg4win.org/) is the easiest way to sign commits in Windows, but I finished the [gpg-agent](http://linux.die.net/man/1/gpg-agent) setup before finding that out.
 
