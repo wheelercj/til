@@ -9,7 +9,7 @@ Here are some computer science skills that start to be helpful before they tend 
 * [browser tools and tech problem solving](https://www.0xf.at/)
 * [how to use the terminal and SSH (secure shell)](https://overthewire.org/wargames/)
 * [debugging with breakpoints](https://www.youtube.com/watch?v=ZDnbBah_LRk&list=PLiQwzrQTcfRx4Yh53q79ypeIWZgY3jK0w&index=4&t=22s)
-* [getting started with Git and GitHub](https://wheelercj.github.io/notes/pages/20210907144216.html)
+* [Getting started with Git and GitHub](https://chriswheeler.dev/posts/getting-started-with-git-and-github/)
 * [how to write unit tests](https://devblogs.microsoft.com/cppblog/cpp-testing-in-visual-studio/)
 * [SQL](/intro-to-sql)
 * concurrency

@@ -30,7 +30,7 @@ lastmod = 2022-12-07T22:46:00-08:00
 * [Akzare's algorithms collection](https://github.com/akzare/Algorithms) (C++ and Python)
 * [William Fiset's algorithms collection](https://github.com/williamfiset/Algorithms) (Java)
 * [Samir Paul's algorithms collection](https://github.com/SamirPaul1/DSAlgo) (Python)
-* [Chris Wheeler's algorithms collection](https://github.com/wheelercj/Algorithms) (C++, Java, Python, and Go)
+* [my algorithms collection](https://github.com/wheelercj/Algorithms) (C++, Java, Python, and Go)
 
 ## practice
 
@@ -43,6 +43,6 @@ The questions on these sites tend to be very challenging. Definitely learn what 
 
 ## related
 
-* [legally free books](https://wheelercj.github.io/notes/pages/20210410221127.html)
-* [intro to recursion with C++](https://wheelercj.github.io/notes/pages/20220502232349.html)
+* [Legally free books](https://chriswheeler.dev/posts/legally-free-books/)
+* [Learning recursion with C++](https://chriswheeler.dev/posts/learning-recursion-with-cpp/)
 * [minimal doubly linked list](/minimal-doubly-linked-list)
