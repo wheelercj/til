@@ -34,3 +34,7 @@ Now you should see something like this:
 ![new-terminal-prompt.png](/new-terminal-prompt.png)
 
 There are also many other prompt customizations possible such as showing only the current folder instead of the full path, or replacing the home directory with `~`. Here's a guide that shows some other customizations (not just for PowerShell): [Ultimate PowerShell Prompt Customization and Git Setup Guide](https://hodgkins.io/ultimate-powershell-prompt-and-git-setup) by Matthew Hodgkins.
+
+## further reading
+
+* [My Windows shell](https://matan-h.com/my-windows-shell/) by matan-h
