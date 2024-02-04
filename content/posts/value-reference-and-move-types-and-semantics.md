@@ -1,6 +1,7 @@
 +++
 title = 'Value, reference, and move types and semantics'
 date = 2024-01-23T23:55:59-08:00
+lastmod = 2024-02-04T14:17:44-08:00
 +++
 
 I see a lot of confusion about value types and references types. Although I'm not sure how common this perspective is, here's how I think of it.
@@ -19,7 +20,7 @@ Let's say there are two variables, `a` and `b`, that have already been created a
 
 ## move semantics
 
-`a = b` relabels `b`'s data as belonging to `a`, making `b` empty. Some languages ([like C++](https://en.cppreference.com/w/cpp/utility/move)) have a move function for move semantics: `a = move(b)`.
+`a = b` relabels `b`'s data as belonging to `a`, making `b` empty. Some languages have a move function for move semantics: `a = move(b)`.
 
 ## assignment happens constantly
 
@@ -31,7 +32,7 @@ At least in most programming languages, pointers have value semantics. It might 
 
 ## where do we see these categories of types?
 
-Some languages, such as C, only have value types. Most have value and reference types, and only a small number have all three. Currently, the only language I know to have move semantics (as well as value and reference semantics) is C++.
+Some languages, such as C, only have value types. Most have value and reference types, and only a small number have all three. Currently, the only languages I know to have move semantics (as well as value and reference semantics) are C++ and Rust.
 
 Note that commonly used terminology for these ideas differs between languages. The phrases "pass by reference", "pass by value", and "return by reference" are used in some communities when referring to how function call arguments are assigned to function parameters. In the Python community, people usually talk about mutability and immutability instead of values and references because, in Python, everything mutable is returned by reference if it hasn't been reassigned.
 
@@ -39,4 +40,6 @@ I never heard the phrases "value types" and "reference types" until I started le
 
 ## further reading
 
-* [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go) by Dave Cheney gives more examples specifically with Go.
+* [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go), by Dave Cheney, gives more examples specifically with Go.
+* [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/) by Jimmy Hartzell
+* [C++'s std::move function](https://en.cppreference.com/w/cpp/utility/move)
