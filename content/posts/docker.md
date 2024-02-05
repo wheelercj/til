@@ -1,6 +1,7 @@
 +++
 title = 'Docker'
 date = 2024-01-24T13:10:44-08:00
+lastmod = 2024-02-05T12:27:27-08:00
 +++
 
 [Docker](https://www.docker.com/) is a tool that makes running software easier by creating a _container_, which is like a little virtual computer with a more predictable configuration than most computers. Containers are very portable, by which I mean they can be created in and run in any operating system that can run Docker. For example, a container could run Linux within it, and the container itself could run on Mac, Windows, and Linux. They're not the same as virtual machines though; containers are more lightweight and easier to automate.
@@ -48,7 +49,7 @@ Docker tends to be easier to use when you have a docker-compose.yml file and use
 
 ## pushing images to Docker Hub
 
-1. Make sure Docker Desktop is running.
+1. Make sure the Docker engine is running, such as by opening Docker Desktop.
 2. `docker login -u userName` and then enter an access token in place of a password.
 3. `docker compose build`
 4. `docker tag appName userName/appName`
