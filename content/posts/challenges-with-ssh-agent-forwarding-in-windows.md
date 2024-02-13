@@ -15,6 +15,13 @@ I tried following the guides linked above using PowerShell in Windows Terminal, 
 
 I tried setting up in WSL and it worked immediately. Maybe I could have gotten it to work in PowerShell or Git Bash eventually, but it didn't seem worth the effort. I considered giving feedback about this so the docs might improve, but the error messages I got didn't actually explain what was wrong beyond that the key could not be found.
 
+Sometimes I need to go through this part of the ssh-agent setup process again for some reason:
+
+```
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_ed25519
+```
+
 ## SSH agent forwarding risk
 
 [GitHub's page on SSH agent fowarding](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/using-ssh-agent-forwarding) has an important warning:
