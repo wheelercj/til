@@ -1,7 +1,7 @@
 +++
 title = 'Docker'
 date = 2024-01-24T13:10:44-08:00
-lastmod = 2024-02-05T12:27:27-08:00
+lastmod = 2024-02-13T16:13:26-08:00
 +++
 
 [Docker](https://www.docker.com/) is a tool that makes running software easier by creating a _container_, which is like a little virtual computer with a more predictable configuration than most computers. Containers are very portable, by which I mean they can be created in and run in any operating system that can run Docker. For example, a container could run Linux within it, and the container itself could run on Mac, Windows, and Linux. They're not the same as virtual machines though; containers are more lightweight and easier to automate.
@@ -43,6 +43,7 @@ Docker tends to be easier to use when you have a docker-compose.yml file and use
 * `docker volume rm volumeName` to delete a volume.
 * `docker image rm imageName` to delete an image.
 * `docker container prune` to delete containers that failed.
+* `docker image prune` to delete unused images.
 * `docker build -t imageName .` to build a new image in the current directory.
 * `docker run -it imageName` to create and run a container interactively.
 * `docker run -pd 12345:4000 --restart unless-stopped --name containerName imageName` to create and run a new container from an image, exposing port `12345` with internal app port `4000`.
