@@ -1,7 +1,7 @@
 +++
 title = 'Docker'
 date = 2024-01-24T13:10:44-08:00
-lastmod = 2024-02-13T16:13:26-08:00
+lastmod = 2024-02-22T18:48:05-08:00
 +++
 
 [Docker](https://www.docker.com/) is a tool that makes running software easier by creating a _container_, which is like a little virtual computer with a more predictable configuration than most computers. Containers are very portable, by which I mean they can be created in and run in any operating system that can run Docker. For example, a container could run Linux within it, and the container itself could run on Mac, Windows, and Linux. They're not the same as virtual machines though; containers are more lightweight and easier to automate.
@@ -30,7 +30,8 @@ Docker tends to be easier to use when you have a docker-compose.yml file and use
 * `docker compose logs -ft` to see the live Docker logs. Note that some apps have logs of their own that may be accessible somewhere else.
 * `docker compose up -d --build` to rebuild images and to create and run the containers.
 * `docker compose up -d --pull=always` to redownload images from Docker Hub and to create and run the containers.
-* `docker compose ps` or `docker ps -a` to list all containers and see their statuses.
+* `docker compose ps` to list all containers that have not been stopped and see their statuses.
+* `docker ps -a` to list all containers and see their statuses.
 * `docker image ls` or `docker images` to list all images.
 * `docker volume ls` to list all volumes.
 * `docker compose exec containerName cat data.txt` to run `cat data.txt` inside a running container.
