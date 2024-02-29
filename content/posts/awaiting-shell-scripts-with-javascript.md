@@ -48,14 +48,14 @@ main();
 
 The above code gives this output in Ubuntu:
 
-```
+```shell
 hello
 /bin/sh: 1: fake_command: not found
 ```
 
 Here's the output in PowerShell:
 
-```
+```shell
 hello
 'fake_command' is not recognized as an internal or external command,
 operable program or batch file.

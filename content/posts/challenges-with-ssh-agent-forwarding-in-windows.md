@@ -17,7 +17,7 @@ I tried setting up in WSL and it worked immediately. Maybe I could have gotten i
 
 Sometimes I need to go through this part of the ssh-agent setup process again for some reason:
 
-```
+```text
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_ed25519
 ```

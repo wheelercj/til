@@ -7,7 +7,7 @@ Or at least this appears to be the default behavior.
 
 I ran a VPN connection in WSL, opened a remote connection to WSL in VS Code, and then tried to use VS Code's remote explorer to connect to a remote server via SSH. I needed VS Code to initiate SSH from within WSL so that the VPN would be used. However, it always failed. Here's part of the error message:
 
-```log
+```text
 [21:37:35.129] Checking ssh with "C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\ssh.exe -V"
 [21:37:35.130] Got error from ssh: spawn C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\ssh.exe ENOENT
 [21:37:35.131] Checking ssh with "C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin\ssh.exe -V"
@@ -38,7 +38,7 @@ The only SSH executables it attempted to use were Windows ones. The connection p
 
 I searched and found a VS Code setting, `remote.SSH.path`. I tried different values for it including `/usr/bin/ssh` and `\\\\wsl.localhost\\Ubuntu\\usr\\bin\\ssh`, but they would always give the same error as above with something like this added:
 
-```log
+```text
 [22:39:36.935] Checking ssh with "/usr/bin/ssh -V"
 [22:39:36.936] Got error from ssh: spawn /usr/bin/ssh ENOENT
 [22:39:36.936] The specified path /usr/bin/ssh is not a valid SSH binary
