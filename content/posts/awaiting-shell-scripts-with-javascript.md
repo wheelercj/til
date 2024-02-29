@@ -12,8 +12,8 @@ const { promisify } = require('util');
 const promisedExec = promisify(require('child_process').exec)
 
 /**
- * exec executes a command and either returns its output to stdout or throws an error.
- * In Windows, only Command Prompt commands can be used with this function.
+ * exec executes a command and either returns its output or throws an error. In Windows,
+ * only Command Prompt commands can be used with this function.
  * @example
  * try {
  *     const stdout = await exec('echo hello');
