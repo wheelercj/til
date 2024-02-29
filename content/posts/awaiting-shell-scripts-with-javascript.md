@@ -9,7 +9,7 @@ I found [an answer by Ansikt and kano on Stack Overflow](https://stackoverflow.c
 
 ```js
 const { promisify } = require('util');
-const promisedExec = promisify(require('child_process').exec)
+const promisedExec = promisify(require('child_process').exec);
 
 /**
  * exec executes a command and either returns its output or throws an error. In Windows,
