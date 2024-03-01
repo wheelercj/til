@@ -5,7 +5,7 @@ date = 2024-02-29T12:08:52-08:00
 
 Sometimes it's helpful to await the execution of a shell script using JavaScript, such as when building a web API to automate tasks for which shell scripts are ideal.
 
-I found [an answer by Ansikt and kano on Stack Overflow](https://stackoverflow.com/questions/12941083/execute-and-get-the-output-of-a-shell-command-in-node-js) for how to do this, but discovered some important details in testing that their answer is missing. Here's my version of how to await a shell script:
+I found [an answer by Ansikt and kano on Stack Overflow](https://stackoverflow.com/a/50335035) for how to do this, but discovered some important details in testing that their answer is missing. Here's my version of how to await a shell script:
 
 ```js
 const { promisify } = require('util');
