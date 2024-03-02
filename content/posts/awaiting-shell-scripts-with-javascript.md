@@ -1,6 +1,7 @@
 +++
 title = 'Awaiting shell scripts with JavaScript'
-date = 2024-03-01T23:16:12-08:00
+date = 2024-02-29T12:08:52-08:00
+lastmod = 2024-03-01T23:16:12-08:00
 +++
 
 Sometimes it's helpful to await the execution of a shell script using JavaScript, such as when building a web API to automate tasks for which shell scripts are ideal.
