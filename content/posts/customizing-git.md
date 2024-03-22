@@ -5,7 +5,7 @@ date = 2024-03-21T12:35:53-07:00
 
 There are many ways you can customize Git. One of the most useful ways is by creating command aliases. For example, you could create `git ds` so you don't have to type `git diff --staged`. To create this alias, open (or create) a file named `~/.gitconfig` and add this:
 
-```
+```text
 [alias]
 	ds = diff --staged
 ```
