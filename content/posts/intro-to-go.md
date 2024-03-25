@@ -25,6 +25,7 @@ Here are various resources that are good to know about if you want to start lear
 * [Cobra](https://github.com/spf13/cobra) by spf13 – for creating command-line interfaces
 * [Viper](https://github.com/spf13/viper) by spf13 – configuration management
 * [NilAway](https://github.com/uber-go/nilaway/?uclick_id=43206374-f01b-4b03-9250-506f8c102a81) by Uber – practical nil panic detection for Go
+* [goleak](https://github.com/uber-go/goleak) by Uber - Goroutine leak detector
 * [Wails](https://wails.io/) – a toolkit for creating web-based GUIs with Go
 * [Fyne](https://fyne.io/) – a toolkit for creating GUIs with Go
 * [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali – comparisons of various Go database libraries and why to not use an ORM
