@@ -30,4 +30,5 @@ Here are a bunch of neat online maps I found.
   * [Xavier Jubier's interactive eclipse tracker](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html)
   * [celestialprogramming.com | Solar Eclipse Map](https://celestialprogramming.com/apps/SolarEclipseViewer/viewer.html)
 * [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
+* [NYC Subwaysheds](https://subwaysheds.com)
 * [Mini Tokyo 3D](https://minitokyo3d.com/)
