@@ -38,16 +38,18 @@ var TRANSLATOR_CACHING_PROPERTIES = TRANSLATOR_REQUIRED_PROPERTIES
 ```
 -- [translate/src/translator.js](https://github.com/zotero/translate/blob/c9bbad0e68d8bb157101743455565cf43264144f/src/translator.js#L26)
 
+The main repo for Zotero's browser extension is [zotero-connectors](https://github.com/zotero/zotero-connectors), but this repo has submodules including [translate](https://github.com/zotero/translate), [utilities](https://github.com/zotero/utilities), [zotero](https://github.com/zotero/zotero), and [zotero-google-docs-integration](https://github.com/zotero/zotero-google-docs-integration).
+
+Some of the extension's most important files are [manifest.json](https://github.com/zotero/zotero-connectors/blob/master/src/browserExt/manifest.json) and [background.js](https://github.com/zotero/zotero-connectors/blob/master/src/browserExt/background.js#L936).
+
 ## types
 
-* [CSL properties in zotero/utilities/utilities_item.js](https://github.com/zotero/utilities/blob/cccf1235a318c259345fc623d5e9d6770ba19df7/utilities_item.js#L609)
-* [CLS properties in zotero/zotero-schema/schema.json](https://github.com/zotero/zotero-schema/blob/1b12272d44134a652519e9192e5a936ac9fcd707/schema.json#L2734)
 * [aurimasv.github.io/z2csl/typeMap.xml](https://aurimasv.github.io/z2csl/typeMap.xml)
-* [item types, fields, and creator types in zotero/zotero-schema/schema.json](https://github.com/zotero/zotero-schema/blob/1b12272d44134a652519e9192e5a936ac9fcd707/schema.json)
+* [CSL properties in utilities/utilities_item.js](https://github.com/zotero/utilities/blob/cccf1235a318c259345fc623d5e9d6770ba19df7/utilities_item.js#L609)
+* [CLS properties in zotero-schema/schema.json](https://github.com/zotero/zotero-schema/blob/1b12272d44134a652519e9192e5a936ac9fcd707/schema.json#L2734)
+* [item types, fields, and creator types in zotero-schema/schema.json](https://github.com/zotero/zotero-schema/blob/1b12272d44134a652519e9192e5a936ac9fcd707/schema.json)
 
 ## further reading
 
 * [github.com/zotero](https://github.com/zotero)
 * [dev:client_coding [Zotero Documentation]](https://www.zotero.org/support/dev/client_coding)
-* [zotero-connectors/src/browserExt/manifest.json](https://github.com/zotero/zotero-connectors/blob/master/src/browserExt/manifest.json)
-* [zotero-connectors/src/browserExt/background.js](https://github.com/zotero/zotero-connectors/blob/master/src/browserExt/background.js#L936)
