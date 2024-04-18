@@ -34,7 +34,8 @@ Docker tends to be easier to use when you have a docker-compose.yml file and use
 * `docker ps -a` to list all containers and see their statuses.
 * `docker image ls` or `docker images` to list all images.
 * `docker volume ls` to list all volumes.
-* `docker compose exec containerName cat data.txt` to run `cat data.txt` inside a running container.
+* `docker compose exec containerName /bin/bash` to start an interactive Bash TTY inside a running container.
+* `docker compose exec containerName sh` to start an interactive shell TTY inside a running container.
 * `docker compose pause` to pause the containers.
 * `docker compose unpause` to unpause paused containers.
 * `docker compose stop` to stop the containers (this clears their memory).
