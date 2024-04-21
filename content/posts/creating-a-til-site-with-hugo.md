@@ -5,6 +5,8 @@ date = 2024-01-13T18:05:57-08:00
 
 What this site is and my reasons for creating it are on [the about page](/about). Although this is the first post intended for this site, til.chriswheeler.dev, I will probably add some older notes with their original dates. This is my first time using [Hugo](https://gohugo.io) and I am very impressed. I used Jekyll once a long time ago and the experience convinced me to make [my own static site generator](https://github.com/wheelercj/Aurora). Now it's been a few years, and I'm going to stop using it because it runs a little slow and is annoying to maintain since it's written in Python. In hindsight, I also made many mistakes on that project and didn't get around to fixing them, but at least I learned a lot from that project and since then.
 
+I'm using Hugo v0.121.2 and probably won't update to newer versions of Hugo until I have a clear reason to.
+
 ## Hugo themes
 
 There are many Hugo themes to choose from. While quickly scrolling through [the site listing them](https://themes.gohugo.io/), here are the ones that caught my eye for my purposes:
