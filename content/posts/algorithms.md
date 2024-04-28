@@ -1,7 +1,7 @@
 +++
 title = 'Algorithms'
 date = 2021-06-20T15:27:51-08:00
-lastmod = 2024-01-31T21:56:25-08:00
+lastmod = 2024-04-28T09:16:06-07:00
 +++
 
 * [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
@@ -43,6 +43,7 @@ The questions on these sites tend to be very challenging. Definitely learn what 
 
 ## related
 
+* [Zed Decoded: Rope & SumTree](https://zed.dev/blog/zed-decoded-rope-sumtree)
 * [Legally free books](https://chriswheeler.dev/posts/legally-free-books/)
 * [Learning recursion with C++](https://chriswheeler.dev/posts/learning-recursion-with-cpp/)
 * [minimal doubly linked list](/minimal-doubly-linked-list)
