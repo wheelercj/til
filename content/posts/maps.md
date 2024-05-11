@@ -12,6 +12,7 @@ Here are a bunch of neat online maps I found.
   * [GOES Imagery Viewer | NOAA / NESDIS / STAR](https://www.star.nesdis.noaa.gov/goes/)
   * [SpotWx | All weather forecasts at a single location](https://spotwx.com/)
   * [College of DuPage Meteorology](https://weather.cod.edu/)
+  * [NOAA / NWS Space Weather Prediction Center](https://www.swpc.noaa.gov/)
 * fires
   * [fire.airnow.gov | Fire and Smoke Map](https://fire.airnow.gov/)
   * [CAL FIRE | California Department of Forestry and Fire Protection](https://www.fire.ca.gov/)
