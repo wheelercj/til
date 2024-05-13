@@ -1,14 +1,14 @@
 +++
 title = 'Learning SQL'
 date = 2021-10-15T16:17:29-08:00
-lastmod = 2023-10-02T00:25:19-08:00
+lastmod = 2024-05-13T13:00:56-07:00
 +++
 
 SQL (Structured Query Language) is a commonly used and reliable way for programs to store and retrieve data. In many cases, it's much better in many ways than just using files directly.
 
 There's a lot that can be learned about SQL. Here are some resources to get you started.
 
-1. Learn SQL with [SQLBolt](https://sqlbolt.com/).
+1. Learn SQL with [SQLBolt](https://sqlbolt.com/) and/or [The SQL Murder Mystery](https://mystery.knightlab.com/).
 2. Choose a database technology and tools.
     * [_Databases_ by Full Stack Python](https://www.fullstackpython.com/databases.html) is a guide (not entirely for Python) with various resources about databases.
     * [Supabase](https://supabase.com/) and [Turso](https://turso.tech/pricing) (and some others) have decent free tiers and make setting up databases relatively easy.
