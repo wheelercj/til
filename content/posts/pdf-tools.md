@@ -1,12 +1,13 @@
 +++
 title = 'PDF tools'
 date = 2024-05-09T12:22:27-07:00
-lastmod = 2024-05-13T12:37:07-07:00
+lastmod = 2024-05-14T22:56:25-07:00
 +++
 
-Here are a bunch of tools I found for reading, editing, and more with PDFs. Of these, I have so far used Sumatra PDF, Xodo (their downloadable version), and OCRmyPDF, but the others look promising.
+Here are a bunch of tools I found for reading, editing, and more with PDFs. Of these, I have so far used Sumatra PDF, Zotero, Pandoc, Xodo (their downloadable version), and OCRmyPDF, but the others look promising.
 
 * [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) is the best PDF reader for Windows.
+* [Zotero](https://www.zotero.org/) includes a PDF reader that lets you add annotations to PDFs, and makes it easy to save PDFs and info about them from websites.
 * [Xodo](https://xodo.com/) has an online and downloadable PDF editor.
 * [SimplePDF](https://simplepdf.eu/) is an online PDF editor.
 * [Pandoc](https://pandoc.org/) converts files between many formats.
