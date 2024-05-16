@@ -120,7 +120,7 @@ function venv {
 }
 ```
 
-If you don't want to add all your commands to one file, you can create a folder, add it to PATH (see [[20220429185353]] how to edit PATH in Windows), and add executable files to that folder. The files can truly be any type of executable file, such as `.exe`, or `.py` if you're using Python, or `.bat` or `.cmd` if you want to use [Batch scripts](https://www.tutorialspoint.com/batch_script/batch_script_quick_guide.htm), or `.ps1` if you would prefer to use [PowerShell commands](https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/). After adding these file(s) to the folder, restart your terminal and enter the file's name without the extension to run the command.
+If you don't want to add all your commands to one file, you can create a folder, add it to PATH (see [Edit PATH in Windows](/editing-path-in-windows)), and add executable files to that folder. The files can truly be any type of executable file, such as `.exe`, or `.py` if you're using Python, or `.bat` or `.cmd` if you want to use [Batch scripts](https://www.tutorialspoint.com/batch_script/batch_script_quick_guide.htm), or `.ps1` if you would prefer to use [PowerShell commands](https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/). After adding these file(s) to the folder, restart your terminal and enter the file's name without the extension to run the command.
 
 ## more about PowerShell
 
