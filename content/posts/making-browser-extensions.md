@@ -55,18 +55,21 @@ In [Temptations of an open-source browser extension developer](https://github.co
 Here are a bunch of links to documentation, guides, etc. that I found helpful.
 
 * Chrome
-    * [dev docs](https://developer.chrome.com/docs/extensions)
-    * [developer dashboard](https://chrome.google.com/webstore/devconsole)
+	* [dev docs](https://developer.chrome.com/docs/extensions)
+	* [developer dashboard](https://chrome.google.com/webstore/devconsole)
 	* [permissions](https://developer.chrome.com/docs/extensions/reference/permissions-list)
 	* [user interface components](https://developer.chrome.com/docs/extensions/develop/ui)
 	* [message passing](https://developer.chrome.com/docs/extensions/develop/concepts/messaging)
 	* [Give users options](https://developer.chrome.com/docs/extensions/develop/ui/options-page)
 	* [chrome.contextMenus](https://developer.chrome.com/docs/extensions/reference/api/contextMenus#type-ContextType)
 	* [chrome.i18n](https://developer.chrome.com/docs/extensions/reference/api/i18n)
+	* [chrome.tabs](https://developer.chrome.com/docs/extensions/reference/api/tabs)
+	* [chrome.tabs.sendMessage()](https://developer.chrome.com/docs/extensions/reference/api/tabs)
+	* [chrome.notifications](https://developer.chrome.com/docs/extensions/reference/api/notifications)
 * Firefox
-    * [dev docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
+	* [dev docs](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)
 	* [developer hub](https://addons.mozilla.org/en-US/developers/addons)
-    * [Extension Workshop](https://extensionworkshop.com/)
+	* [Extension Workshop](https://extensionworkshop.com/)
 	* [manifest.json](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
 	* [Request the right permissions](https://extensionworkshop.com/documentation/develop/request-the-right-permissions/)
 	* [Porting a Google Chrome extension](https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/)
