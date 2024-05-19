@@ -80,3 +80,11 @@ Here are a bunch of links to documentation, guides, etc. that I found helpful.
 	* [menus.ContextType](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/ContextType#page_action)
 	* [Internationalization](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization#internationalizing_manifest.json)
 	* [Browser Extension Development Tools](https://extensionworkshop.com/documentation/develop/browser-extension-development-tools/)
+
+## email client extensions
+
+Some email clients are almost the same as browsers and also have extentions, such as [Thunderbird](https://www.thunderbird.net/en-US/).
+
+* [Add-ons for Thunderbird](https://addons.thunderbird.net/en-US/thunderbird/)
+* [developer.thunderbird.net](https://developer.thunderbird.net/)
+* [github.com/thunderbird/sample-extensions](https://github.com/thunderbird/sample-extensions)
