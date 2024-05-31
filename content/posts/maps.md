@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-05-01T12:08:05-07:00
+lastmod = 2024-05-31T12:01:03-07:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -22,7 +22,7 @@ Here are a bunch of neat online maps I found.
   * [Xavier Jubier's interactive eclipse tracker](http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2024_GoogleMapFull.html)
   * [celestialprogramming.com | Solar Eclipse Map](https://celestialprogramming.com/apps/SolarEclipseViewer/viewer.html)
 * [The True Size](https://www.thetruesize.com/)
-* [GeoGuessr - Let's explore the world!](https://www.geoguessr.com/)
+* [GeoGuessr | Let's explore the world!](https://www.geoguessr.com/)
 * [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 * [earthquake.usgs.gov | Latest Earthquakes](https://earthquake.usgs.gov/earthquakes/map/)
 * [Real Time Lightning Map | LightningMaps.org](https://www.lightningmaps.org)
@@ -34,6 +34,7 @@ Here are a bunch of neat online maps I found.
 * [Open Infrastructure Map](https://openinframap.org/)
 * [OpenRailwayMap](https://www.openrailwaymap.org/)
 * [trains.fyi](https://trains.fyi/)
+* [ShadeMap | Simulate sun shadows for any time and place on Earth](https://shademap.app/)
 * [Lighthouse map](https://geodienst.github.io/lighthousemap/)
 * [Light pollution map](https://www.lightpollutionmap.info/)
 * [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
