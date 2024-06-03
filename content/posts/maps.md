@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-05-31T12:01:03-07:00
+lastmod = 2024-06-03T12:29:26-07:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -39,6 +39,7 @@ Here are a bunch of neat online maps I found.
 * [Light pollution map](https://www.lightpollutionmap.info/)
 * [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
 * [NYC Subwaysheds](https://subwaysheds.com)
+* [Washington Power Outages Map](https://poweroutage.us/area/state/washington)
 * [Mini Tokyo 3D](https://minitokyo3d.com/)
 * [Create your own Custom Map | MapChart](https://www.mapchart.net/)
 * the ones everyone knows
