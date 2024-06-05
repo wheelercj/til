@@ -1,19 +1,21 @@
 +++
 title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
-lastmod = 2024-01-23T13:53:26-08:00
+lastmod = 2024-06-04T19:11:35-07:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.
 
-* [A Tour of Go](https://go.dev/tour/welcome/1)
+* [A Tour of Go](https://go.dev/tour/welcome/1) is probably the best way to start learning Go
 * [go.dev/learn](https://go.dev/learn/)
-* [Go Playground](https://go.dev/play/) – online Go editor and runner
+* [Go Playground](https://go.dev/play/) is an online Go editor and runner
 * [Go FAQs](https://go.dev/doc/faq)
 * [Jamie Tanna's guide to learning Go](https://www.jvt.me/posts/2022/08/12/learning-new-language-go/)
 * [Tutorial: Get started with Go](https://go.dev/doc/tutorial/getting-started)
 * [Learn X in Y minutes where X=Go](https://learnxinyminutes.com/docs/go/)
 * [_Learn Go With Tests_](https://quii.gitbook.io/learn-go-with-tests) by quii and Denise
+* [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
+* [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/) by Joe Shaw
 * [publishing Go packages](/publishing-go-packages)
 * [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
 * [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) by Dave Cheney
