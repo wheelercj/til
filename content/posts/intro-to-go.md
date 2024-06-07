@@ -1,7 +1,7 @@
 +++
 title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
-lastmod = 2024-06-04T19:11:35-07:00
+lastmod = 2024-06-06T17:01:14-07:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.
@@ -15,7 +15,6 @@ Here are various resources that are good to know about if you want to start lear
 * [Learn X in Y minutes where X=Go](https://learnxinyminutes.com/docs/go/)
 * [_Learn Go With Tests_](https://quii.gitbook.io/learn-go-with-tests) by quii and Denise
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
-* [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/) by Joe Shaw
 * [publishing Go packages](/publishing-go-packages)
 * [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
 * [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) by Dave Cheney
@@ -53,4 +52,6 @@ Although there are many others, here are a few I hear about often:
 ### guides
 
 * [4 Things to Consider When Choosing a Go API Framework](https://markphelps.me/posts/4-things-to-consider-when-choosing-a-go-api-framework/) by Mark Phelps
+* [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/) by Joe Shaw
+* [How To Use Contexts in Go | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go)
 * [Backend from the Beginning](https://eblog.fly.dev/backendbasics.html) by Efron Licht
