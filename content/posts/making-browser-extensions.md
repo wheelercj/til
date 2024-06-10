@@ -1,7 +1,7 @@
 +++
 title = 'Making browser extensions'
 date = 2024-05-05T00:03:55-07:00
-lastmod = 2024-05-09T12:19:53-07:00
+lastmod = 2024-06-10T14:41:44-07:00
 +++
 
 Creating browser extensions is easier than I expected, but still has some challenging parts. A great way to start learning how to make extensions is [the Chrome dev docs](https://developer.chrome.com/docs/extensions).
@@ -39,6 +39,8 @@ See [web-ext command reference](https://extensionworkshop.com/documentation/deve
 Besides the example extensions in [the Chrome dev docs](https://developer.chrome.com/docs/extensions), here are a few more:
 
 * [Stardown](https://github.com/wheelercj/Stardown) (which I created)
+* [uBlock Origin](https://github.com/gorhill/uBlock)
+* [Dark Reader](https://github.com/darkreader/darkreader)
 * [Zotero](/how-zotero-gets-reference-data-from-sites)
 * [search for more on GitHub](https://github.com/topics/browser-extension).
 
