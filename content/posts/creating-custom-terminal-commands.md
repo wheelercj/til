@@ -1,7 +1,7 @@
 +++
 title = 'Creating custom terminal commands'
 date = 2022-03-20T18:12:52-08:00
-lastmod = 2023-08-26T07:17:21-08:00
+lastmod = 2024-06-23T22:31:19-07:00
 +++
 
 Creating custom terminal commands can change having to type something long like this:
@@ -51,6 +51,15 @@ This creates a `hi` command that responds with `hello` when used.
 Here are more examples:
 
 ```powershell
+function up {
+    cd ..
+}
+
+# This command kind of imitates Linux's command for creating new files.
+function touch {
+    new-item "$args" -ItemType File
+}
+
 # This function runs a program.
 function matrix {
     & "C:\Users\chris\Documents\programming\the_matrix\x64\Debug\the_matrix.exe"
@@ -59,6 +68,11 @@ function matrix {
 # You can run any type of executable file this way, not just .exe files.
 function psql {
     & "C:/ProgramData/Microsoft/Windows/Start Menu/Programs/PostgreSQL 15/SQL Shell (psql).lnk"
+}
+
+# You can shorten commonly used existing commands.
+function g {
+    git $args
 }
 
 # This runs a Python program. The $args at the end sends any inputs for the command from
@@ -84,11 +98,6 @@ function todo {
     } finally {
         cd $originalPath
     }
-}
-
-# Make a folder easier to open.
-function binds {
-    explorer "C:\Users\chris\Documents\programming\binds"
 }
 
 # Here's how you can customize what your terminal prompts look like.
@@ -120,7 +129,11 @@ function venv {
 }
 ```
 
-If you don't want to add all your commands to one file, you can create a folder, add it to PATH (see [Edit PATH in Windows](/editing-path-in-windows)), and add executable files to that folder. The files can truly be any type of executable file, such as `.exe`, or `.py` if you're using Python, or `.bat` or `.cmd` if you want to use [Batch scripts](https://www.tutorialspoint.com/batch_script/batch_script_quick_guide.htm), or `.ps1` if you would prefer to use [PowerShell commands](https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/). After adding these file(s) to the folder, restart your terminal and enter the file's name without the extension to run the command.
+## a folder of executables
+
+If you don't want to add all your commands to a file like above, you can create a folder, add it to PATH (see [Edit PATH in Windows](/editing-path-in-windows)), and add executable files to that folder. Many people do this. They usually name the folder `bin` (short for binaries, a synonym to executable files) and put it in their home folder (in my case, that's `C:/Users/chris`). On some operating systems, it can also be a good idea to [start all of your commands with a comma](https://rhodesmill.org/brandon/2009/commands-with-comma/).
+
+The files can truly be any type of executable file, such as `.exe`, or `.py` if you're using Python, or `.bat` or `.cmd` if you want to use [Batch scripts](https://www.tutorialspoint.com/batch_script/batch_script_quick_guide.htm), or `.ps1` if you would prefer to use [PowerShell commands](https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/), etc. After adding these file(s) to the folder, restart your terminal and enter the file's name without the extension to run the command. Personally, I use a mixture of binaries in a `C:/Users/chris/bin` folder and the `$profile` file.
 
 ## more about PowerShell
 
