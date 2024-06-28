@@ -1,7 +1,7 @@
 +++
 title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
-lastmod = 2024-06-06T17:01:14-07:00
+lastmod = 2024-06-28T16:02:24-07:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.
@@ -14,6 +14,7 @@ Here are various resources that are good to know about if you want to start lear
 * [Tutorial: Get started with Go](https://go.dev/doc/tutorial/getting-started)
 * [Learn X in Y minutes where X=Go](https://learnxinyminutes.com/docs/go/)
 * [_Learn Go With Tests_](https://quii.gitbook.io/learn-go-with-tests) by quii and Denise
+* [Anthony GG - YouTube](https://www.youtube.com/@anthonygg_/videos)
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
 * [publishing Go packages](/publishing-go-packages)
 * [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
