@@ -1,12 +1,14 @@
 +++
 title = 'Making browser extensions'
 date = 2024-05-05T00:03:55-07:00
-lastmod = 2024-06-10T14:41:44-07:00
+lastmod = 2024-06-30T18:08:37-07:00
 +++
 
 Creating browser extensions is easier than I expected, but still has some challenging parts. A great way to start learning how to make extensions is [the Chrome dev docs](https://developer.chrome.com/docs/extensions).
 
 Creating your first extension requires a lot of trial and error. It gets easier as you learn how extensions work and how to use the browser APIs. On sites like Stack Overflow, many discussions have answers that make assumptions, such as that you're creating a content script and so have access to the `document` variable (which is not accessible in background scripts). The assumptions in some answers are confusing at first, but this problem also gradually fades as you learn more.
+
+[Browser extensions are underrated: the promise of hackable software (2019)](https://news.ycombinator.com/item?id=39251095) is a Hacker News discussion that covers the pros and cons of browser extensions, and similar tools such as bookmarklets and user scripts.
 
 ## browsers
 
