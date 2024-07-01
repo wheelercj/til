@@ -3,17 +3,15 @@ title = 'Bookmarklets'
 date = 2024-07-01T00:20:37-07:00
 +++
 
-Bookmarklets are bookmarks in a browser, but rather than navigating to a website when clicked, they run some JavaScript on a page. They can do a wide variety of things to a website such as change fonts, search for phone numbers, remove all images, . . . they can do just about anything JavaScript can do, which is a lot.
+Bookmarklets are browser bookmarks that run some JavaScript instead of navigating to a website. They can do anything JavaScript can do including change fonts, search for phone numbers, remove all images, change the background color, automatically fill a form, and so much more.
 
-## Examples
+[This guide](https://www.hongkiat.com/blog/100-useful-bookmarklets-for-better-productivity-ultimate-list/) by Hongkiat Lim explains bookmarklets in more detail and lists many of the most popular ones.
+
+## More examples
 
 - [web-automation/bookmarklets](https://github.com/madacol/web-automation/tree/master/bookmarklets), by Marco D'Agostini, is a collection of bookmarklets
 - [Obsidian Web Clipper Bookmarklet](https://gist.github.com/kepano/90c05f162c37cf730abb8ff027987ca3), by Steph Ango, converts websites to markdown and saves them directly to Obsidian
-
-## Guides
-
-- [How To Make a Bookmarklet For Your Web Application](https://betterexplained.com/articles/how-to-make-a-bookmarklet-for-your-web-application/) by BetterExplained
-- [50+ Most Useful Bookmarklets For Better Productivity](https://www.hongkiat.com/blog/100-useful-bookmarklets-for-better-productivity-ultimate-list/) by Hongkiat Lim
+- [Jesse's Bookmarklets Site](https://www.squarefree.com/bookmarklets/) (last updated in 2004)
 
 ## Bookmarklet editors
 
