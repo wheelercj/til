@@ -24,40 +24,25 @@ Here are various resources that are good to know about if you want to start lear
 * [How To Code in Go](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-go) is a list of many guides written by DigitalOcean
 * [Go Programming Language Wiki](https://zchee.github.io/golang-wiki/)
 
-## miscellaneous tools and guides
+### miscellaneous
 
-* [godotenv](https://pkg.go.dev/github.com/joho/godotenv) by John Barton - loads environment variables from .env files
-* [air](https://github.com/air-verse/air) - live reload for Go apps
-* [Cobra](https://github.com/spf13/cobra) by spf13 - for creating command-line interfaces
-* [Viper](https://github.com/spf13/viper) by spf13 - configuration management
-* [NilAway](https://github.com/uber-go/nilaway) by Uber - practical nil panic detection for Go
-* [goleak](https://github.com/uber-go/goleak) by Uber - Goroutine leak detector
-* [gonew](https://go.dev/blog/gonew) by Cameron Balahan - project templates
-* [Finding unreachable functions with deadcode](https://go.dev/blog/deadcode) by Alan Donovan
-* [Reading Google Sheets from a Go program](https://eli.thegreenplace.net/2024/reading-google-sheets-from-a-go-program/) by Eli Bendersky
+* [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali - comparisons of various Go database libraries and why to not use an ORM
+* [Logging in Go with Slog: The Ultimate Guide](https://betterstack.com/community/guides/logging/logging-in-go/) by Better Stack Community
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
 * [Interface Upgrades in Go](https://avtok.com/2014/11/05/interface-upgrades.html) by Avtok
-* [golangci-lint](https://github.com/golangci/golangci-lint) - fast linters runner for Go
-* I've also starred [a bunch of Go dev tools](https://github.com/stars/wheelercj/lists/go-dev-tools) that I like or plan to try in the future
 
-## logging
-
-* [Logging in Go with Slog: The Ultimate Guide](https://betterstack.com/community/guides/logging/logging-in-go/) by Better Stack Community
-* [lumberjack](https://github.com/natefinch/lumberjack) by Nate Finch - a log rolling package for Go
-
-## error handling
+### error handling
 
 * [A Beautiful Way To Deal With ERRORS in Golang HTTP Handlers - YouTube](https://www.youtube.com/watch?v=aS1cJfQ-LrQ)
 * [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/) by Joe Shaw
 * [How to Add Extra Information to Errors in Go](https://www.digitalocean.com/community/tutorials/how-to-add-extra-information-to-errors-in-go) by DigitalOcean
 
-## databases
+### web APIs
 
-* [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali - comparisons of various Go database libraries and why to not use an ORM
-* [sqlc](https://github.com/sqlc-dev/sqlc) - generate type-safe code from SQL
-* [goose](https://github.com/pressly/goose) by pressly - a database migration tool that supports SQL migrations and Go functions
+* [4 Things to Consider When Choosing a Go API Framework](https://markphelps.me/posts/4-things-to-consider-when-choosing-a-go-api-framework/) by Mark Phelps
+* [Backend from the Beginning](https://eblog.fly.dev/backendbasics.html) by Efron Licht
 
-## deployment and distribution
+### deployment and distribution
 
 * [Go docker images: small and simple](https://laurentsv.com/blog/2024/06/25/stop-the-go-and-docker-madness.html) by Laurent Demailly
 * [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) - language focused docker images, minus the operating system
@@ -66,10 +51,38 @@ Here are various resources that are good to know about if you want to start lear
 * [GoReleaser Action](https://github.com/marketplace/actions/goreleaser-action) - a GitHub Action for GoReleaser
 * [Gokrazy](https://news.ycombinator.com/item?id=37583234) - deploy Go programs as appliances to a Raspberry Pi or PC
 
-## web APIs
+### contexts
 
-* [4 Things to Consider When Choosing a Go API Framework](https://markphelps.me/posts/4-things-to-consider-when-choosing-a-go-api-framework/) by Mark Phelps
-* [Backend from the Beginning](https://eblog.fly.dev/backendbasics.html) by Efron Licht
+* [How To Use Contexts in Go](https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go) by DigitalOcean
+* [Context Control in Go](https://zenhorace.dev/blog/context-control-go/)
+
+### profiling, benchmarking, & execution tracing
+
+* [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
+* [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) by Dave Cheney
+* [More powerful Go execution traces](https://go.dev/blog/execution-traces-2024)
+
+## packages
+
+### miscellaneous
+
+* [godotenv](https://pkg.go.dev/github.com/joho/godotenv) by John Barton - loads environment variables from .env files
+* [lumberjack](https://github.com/natefinch/lumberjack) by Nate Finch - a log rolling package for Go
+* [air](https://github.com/air-verse/air) - live reload for Go apps
+* [Cobra](https://github.com/spf13/cobra) by spf13 - for creating command-line interfaces
+* [Viper](https://github.com/spf13/viper) by spf13 - configuration management
+* [NilAway](https://github.com/uber-go/nilaway) by Uber - practical nil panic detection for Go
+* [goleak](https://github.com/uber-go/goleak) by Uber - Goroutine leak detector
+* [gonew](https://go.dev/blog/gonew) by Cameron Balahan - project templates
+* [deadcode](https://go.dev/blog/deadcode) by Alan Donovan - find unreachable functions
+* [Reading Google Sheets from a Go program](https://eli.thegreenplace.net/2024/reading-google-sheets-from-a-go-program/) by Eli Bendersky
+* [golangci-lint](https://github.com/golangci/golangci-lint) - fast linters runner for Go
+* I've also starred [a bunch of Go dev tools](https://github.com/stars/wheelercj/lists/go-dev-tools) that I like or plan to try in the future
+
+### databases
+
+* [sqlc](https://github.com/sqlc-dev/sqlc) - generate type-safe code from SQL
+* [goose](https://github.com/pressly/goose) by pressly - a database migration tool that supports SQL migrations and Go functions
 
 ### web API routers
 
@@ -91,14 +104,3 @@ Although there are many others, here are a few I hear about often:
 
 * [Wails](https://wails.io/) - a toolkit for creating web-based GUIs with Go
 * [Fyne](https://fyne.io/) - a toolkit for creating GUIs with Go
-
-## contexts
-
-* [How To Use Contexts in Go](https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go) by DigitalOcean
-* [Context Control in Go](https://zenhorace.dev/blog/context-control-go/)
-
-## profiling, benchmarking, & execution tracing
-
-* [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
-* [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) by Dave Cheney
-* [More powerful Go execution traces](https://go.dev/blog/execution-traces-2024)
