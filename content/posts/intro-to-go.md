@@ -1,48 +1,85 @@
 +++
 title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
-lastmod = 2024-06-28T16:02:24-07:00
+lastmod = 2024-06-30T18:50:34-07:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.
 
-* [A Tour of Go](https://go.dev/tour/welcome/1) is probably the best way to start learning Go
-* [go.dev/learn](https://go.dev/learn/)
+## getting started
+
+* if you're new to programming, check out [Golang Tutorial For Beginners - YouTube](https://www.youtube.com/watch?v=Q0sKAMal4WQ)
+* [A Tour of Go](https://go.dev/tour/welcome/1) is probably the best way for developers with experience in another language to start learning Go
 * [Go Playground](https://go.dev/play/) is an online Go editor and runner
-* [Go FAQs](https://go.dev/doc/faq)
-* [Jamie Tanna's guide to learning Go](https://www.jvt.me/posts/2022/08/12/learning-new-language-go/)
 * [Tutorial: Get started with Go](https://go.dev/doc/tutorial/getting-started)
+* [Go by Example](https://gobyexample.com/)
+* [Go FAQs](https://go.dev/doc/faq)
+* [go.dev/learn](https://go.dev/learn/)
+* [Effective Go](https://go.dev/doc/effective_go)
+* [Jamie Tanna's guide to learning Go](https://www.jvt.me/posts/2022/08/12/learning-new-language-go/)
 * [Learn X in Y minutes where X=Go](https://learnxinyminutes.com/docs/go/)
 * [_Learn Go With Tests_](https://quii.gitbook.io/learn-go-with-tests) by quii and Denise
 * [Anthony GG - YouTube](https://www.youtube.com/@anthonygg_/videos)
-* [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
-* [publishing Go packages](/publishing-go-packages)
-* [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
-* [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) by Dave Cheney
-* [Finding unreachable functions with deadcode](https://go.dev/blog/deadcode) by Alan Donovan
-* [Experimenting with project templates](https://go.dev/blog/gonew) (using gonew) by Cameron Balahan
+* [Advent of Code](https://adventofcode.com/) is a great way to get practice with a new language
+* [How To Code in Go](https://www.digitalocean.com/community/tutorial-series/how-to-code-in-go) is a list of many guides written by DigitalOcean
+* [Go Programming Language Wiki](https://zchee.github.io/golang-wiki/)
 
-## third party libraries, frameworks, and tools
+## miscellaneous tools and guides
 
-* [Cobra](https://github.com/spf13/cobra) by spf13 – for creating command-line interfaces
-* [Viper](https://github.com/spf13/viper) by spf13 – configuration management
-* [NilAway](https://github.com/uber-go/nilaway/?uclick_id=43206374-f01b-4b03-9250-506f8c102a81) by Uber – practical nil panic detection for Go
+* [godotenv](https://pkg.go.dev/github.com/joho/godotenv) by John Barton - loads environment variables from .env files
+* [air](https://github.com/air-verse/air) - live reload for Go apps
+* [Cobra](https://github.com/spf13/cobra) by spf13 - for creating command-line interfaces
+* [Viper](https://github.com/spf13/viper) by spf13 - configuration management
+* [NilAway](https://github.com/uber-go/nilaway) by Uber - practical nil panic detection for Go
 * [goleak](https://github.com/uber-go/goleak) by Uber - Goroutine leak detector
-* [Wails](https://wails.io/) – a toolkit for creating web-based GUIs with Go
-* [Fyne](https://fyne.io/) – a toolkit for creating GUIs with Go
-* [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali – comparisons of various Go database libraries and why to not use an ORM
-* [golangci-lint](https://github.com/golangci/golangci-lint) – fast linters runner for Go
-* [Gokrazy](https://news.ycombinator.com/item?id=37583234) – deploy Go programs as appliances to a Raspberry Pi or PC
+* [gonew](https://go.dev/blog/gonew) by Cameron Balahan - project templates
+* [Finding unreachable functions with deadcode](https://go.dev/blog/deadcode) by Alan Donovan
+* [Reading Google Sheets from a Go program](https://eli.thegreenplace.net/2024/reading-google-sheets-from-a-go-program/) by Eli Bendersky
+* [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
+* [Interface Upgrades in Go](https://avtok.com/2014/11/05/interface-upgrades.html) by Avtok
+* [golangci-lint](https://github.com/golangci/golangci-lint) - fast linters runner for Go
+* I've also starred [a bunch of Go dev tools](https://github.com/stars/wheelercj/lists/go-dev-tools) that I like or plan to try in the future
 
-## web API tech
+## logging
 
-With most programming languages, you would almost always want to use a framework when creating API backend services. Go has many frameworks too, but also some excellent non-framework alternatives that many people prefer:
+* [Logging in Go with Slog: The Ultimate Guide](https://betterstack.com/community/guides/logging/logging-in-go/) by Better Stack Community
+* [lumberjack](https://github.com/natefinch/lumberjack) by Nate Finch - a log rolling package for Go
 
-* [the Go standard library's net/http package](https://pkg.go.dev/net/http) – an HTTP client and server implementation
-* [gorilla/mux](https://github.com/gorilla/mux) – an HTTP router
-* [chi](https://github.com/go-chi/chi) – an HTTP router
+## error handling
 
-### frameworks
+* [A Beautiful Way To Deal With ERRORS in Golang HTTP Handlers - YouTube](https://www.youtube.com/watch?v=aS1cJfQ-LrQ)
+* [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/) by Joe Shaw
+* [How to Add Extra Information to Errors in Go](https://www.digitalocean.com/community/tutorials/how-to-add-extra-information-to-errors-in-go) by DigitalOcean
+
+## databases
+
+* [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali - comparisons of various Go database libraries and why to not use an ORM
+* [sqlc](https://github.com/sqlc-dev/sqlc) - generate type-safe code from SQL
+* [goose](https://github.com/pressly/goose) by pressly - a database migration tool that supports SQL migrations and Go functions
+
+## deployment and distribution
+
+* [Go docker images: small and simple](https://laurentsv.com/blog/2024/06/25/stop-the-go-and-docker-madness.html) by Laurent Demailly
+* [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) - language focused docker images, minus the operating system
+* [publishing Go packages](/publishing-go-packages)
+* [GoReleaser](https://goreleaser.com/) - release Go projects as fast and easily as possible
+* [GoReleaser Action](https://github.com/marketplace/actions/goreleaser-action) - a GitHub Action for GoReleaser
+* [Gokrazy](https://news.ycombinator.com/item?id=37583234) - deploy Go programs as appliances to a Raspberry Pi or PC
+
+## web APIs
+
+* [4 Things to Consider When Choosing a Go API Framework](https://markphelps.me/posts/4-things-to-consider-when-choosing-a-go-api-framework/) by Mark Phelps
+* [Backend from the Beginning](https://eblog.fly.dev/backendbasics.html) by Efron Licht
+
+### web API routers
+
+For small web servers, a framework might just be unnecessary complexity. Routers are perfect for these situations.
+
+* [the Go standard library's net/http package](https://pkg.go.dev/net/http) - an HTTP client and server implementation
+* [gorilla/mux](https://github.com/gorilla/mux) - an HTTP router
+* [chi](https://github.com/go-chi/chi) - an HTTP router
+
+### web API frameworks
 
 Although there are many others, here are a few I hear about often:
 
@@ -50,9 +87,18 @@ Although there are many others, here are a few I hear about often:
 * [Gin](https://github.com/gin-gonic)
 * [Fiber](https://gofiber.io/)
 
-### guides
+## desktop apps
 
-* [4 Things to Consider When Choosing a Go API Framework](https://markphelps.me/posts/4-things-to-consider-when-choosing-a-go-api-framework/) by Mark Phelps
-* [Error handling in Go HTTP applications](https://www.joeshaw.org/error-handling-in-go-http-applications/) by Joe Shaw
-* [How To Use Contexts in Go | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go)
-* [Backend from the Beginning](https://eblog.fly.dev/backendbasics.html) by Efron Licht
+* [Wails](https://wails.io/) - a toolkit for creating web-based GUIs with Go
+* [Fyne](https://fyne.io/) - a toolkit for creating GUIs with Go
+
+## contexts
+
+* [How To Use Contexts in Go](https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go) by DigitalOcean
+* [Context Control in Go](https://zenhorace.dev/blog/context-control-go/)
+
+## profiling, benchmarking, & execution tracing
+
+* [Profiling Go Programs](https://go.dev/blog/pprof) (using pprof) by Russ Cox and Shenghou Ma
+* [How to write benchmarks in Go](https://dave.cheney.net/2013/06/30/how-to-write-benchmarks-in-go) by Dave Cheney
+* [More powerful Go execution traces](https://go.dev/blog/execution-traces-2024)
