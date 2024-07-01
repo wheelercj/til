@@ -127,3 +127,19 @@ title = 'Customizing a Hugo theme'
 date = 2024-01-15T15:47:01-08:00
 lastmod = 2024-01-16T15:47:01-08:00
 ```
+
+## tables
+
+By default, tables in Etch have no borders. That can make tables hard to read, so I added some simple borders that aren't too distracting.
+
+```css
+table,
+th,
+td {
+    border: 1px solid #424141;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: left;
+}
+```

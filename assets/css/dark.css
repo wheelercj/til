@@ -83,6 +83,16 @@ body .gist .blob-code {
   filter: contrast(5%) brightness(140%) saturate(5000%);
 }
 
+table,
+th,
+td {
+    border: 1px solid #424141;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: left;
+}
+
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}
