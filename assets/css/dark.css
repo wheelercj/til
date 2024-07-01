@@ -69,9 +69,9 @@ body .gist .highlight {
 }
 
 body .gist .blob-num {
-  color: #f5f5f5;
-  background-color: #3e3e3e;
-  pointer-events: none;
+    color: #f5f5f5;
+    background-color: #3e3e3e;
+    pointer-events: none;
 }
 
 body .gist .gist-meta {
@@ -79,8 +79,8 @@ body .gist .gist-meta {
 }
 
 body .gist .blob-code {
-  font-size: 14px;
-  filter: contrast(5%) brightness(140%) saturate(5000%);
+    font-size: 14px;
+    filter: contrast(5%) brightness(140%) saturate(5000%);
 }
 
 table,
