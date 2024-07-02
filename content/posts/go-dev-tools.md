@@ -71,9 +71,7 @@ Fast linters runner for Go. They have an [official GitHub Action](https://github
 
 #### [NilAway](https://github.com/uber-go/nilaway)
 
-`go install go.uber.org/nilaway/cmd/nilaway@latest`
-
-Practical nil panic detection for Go. Created by Uber.
+Practical nil panic detection for Go. Created by Uber, this static analysis tool can be installed and used locally, but is recommended to be used with a system like golangci-lint.
 
 #### [goleak](https://github.com/uber-go/goleak)
 
@@ -85,7 +83,7 @@ A goroutine leak detector created by Uber.
 
 `go install golang.org/x/tools/cmd/deadcode@latest`
 
-Find unreachable functions.
+Find unreachable functions. This tool never accidentally says a reachable function is unreachable, unless it's only called from code not written in Go. Its creators "run deadcode periodically on our projects, especially after refactoring work, to help identify parts of the program that are no longer needed."
 
 ## Database tools
 
