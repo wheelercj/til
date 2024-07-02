@@ -3,7 +3,9 @@ title = 'Go dev tools'
 date = 2024-07-02T01:14:26-07:00
 +++
 
-Below are a bunch of commonly used packages and other tools for software development with Go. If you're new to Go, check out [Learning Go](/intro-to-go).
+Below are a bunch of commonly used packages and other tools for software development with Go. Go has excellent backwards and forwards compatability, so tools that haven't been updated in a long time may still be a great choice.
+
+If you're new to Go, check out [Learning Go](/intro-to-go).
 
 {{< toc >}}
 
@@ -20,12 +22,6 @@ Load environment variables from .env files.
 `import "gopkg.in/natefinch/lumberjack.v2"`
 
 A log rolling package for Go. This can be used as the backend behind the Go standard library's `log/slog` package.
-
-#### [air](https://github.com/air-verse/air)
-
-`go install github.com/air-verse/air@latest`
-
-Live reload for Go apps.
 
 #### [Cobra](https://github.com/spf13/cobra)
 
@@ -77,27 +73,39 @@ A tool for instantiating new projects in Go from predefined templates.
 
 Find unreachable functions.
 
+#### [air](https://github.com/air-verse/air)
+
+`go install github.com/air-verse/air@latest`
+
+Live reload for Go apps.
+
 ## Databases
+
+#### [pgx](https://github.com/jackc/pgx)
+
+`import "github.com/jackc/pgx/v5"`
+
+A PostgreSQL driver and toolkit for Go. Postgres seems to be by far the most popular choice among the SQL technologies in Go.
 
 #### [sqlc](https://github.com/sqlc-dev/sqlc)
 
 `go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest`
 
-Generate type-safe code from SQL.
+Generate type-safe code from SQL. sqlc is Go's most popular query builder and use of query builders is popular in Go; use of ORMs is strongly discouraged by almost all Go developers.
 
 #### [goose](https://github.com/pressly/goose)
 
 `go install github.com/pressly/goose/v3/cmd/goose@latest`
 
-A database migration tool that supports SQL migrations and Go functions.
+A database migration tool that supports SQL migrations and Go functions. I haven't looked into alternatives for this yet.
 
 ## HTTP routers
 
-In Go, it's common to build web servers without using a framework because Go has an excellent alternative to frameworks: routers. They're often best for APIs that aren't serving frontend content.
+In Go, it's common to build web servers without using a framework because Go has several excellent routers.
 
-[The Go standard library's net/http package](https://pkg.go.dev/net/http) has only the most basic features but is said to have the best performance.
+The Go standard library's [net/http package](https://pkg.go.dev/net/http) has only the most basic features but is said to have the best performance.
 
-Among third-party routers, [chi](https://github.com/go-chi/chi) and [gorilla/mux](https://github.com/gorilla/mux) are probably the most widely used. They are very similar in nearly every way. It appears gorilla/mux was more popular than chi in the past, but chi started catching up when gorilla/mux temporarily went unmaintained for a while. In online discussions, I usually see people prefer chi over gorilla/mux. gorilla/mux was implemented with regex and chi was implemented with a trie.
+Among third-party routers, [chi](https://github.com/go-chi/chi) and [gorilla/mux](https://github.com/gorilla/mux) are probably the most widely used. They are very similar. It appears gorilla/mux was more popular than chi in the past, but chi started catching up when gorilla/mux temporarily went unmaintained for a while. In online discussions, I almost always see people prefer chi over gorilla/mux. chi was implemented with a trie and gorilla/mux was implemented with regex.
 
 `import "github.com/go-chi/chi/v5"`
 
@@ -107,7 +115,7 @@ Among third-party routers, [chi](https://github.com/go-chi/chi) and [gorilla/mux
 
 ## HTTP frameworks
 
-Although Go has many HTTP frameworks, below are just a few I hear about often. [Here's a more complete list](https://github.com/avelino/awesome-go#web-frameworks).
+Although Go has many HTTP frameworks, below are just the ones I hear about often. Using a framework solves some problems, but also creates problems. For some use cases, they create more problems than they solve. [Here's a more complete list of HTTP frameworks](https://github.com/avelino/awesome-go#web-frameworks).
 
 #### [Echo](https://github.com/labstack/echo)
 
@@ -115,21 +123,21 @@ Although Go has many HTTP frameworks, below are just a few I hear about often. [
 
 Echo appears to be the current most popular framework for new projects. It's minimal, has a lot of middlewares available, and is one of the highest-performance frameworks. A commonly mentioned downside is that it's different from Go's standard library.
 
-#### [Gin](https://github.com/gin-gonic/gin)
-
-`import "github.com/gin-gonic/gin"`
-
-Gin is probably Go's most widely used HTTP framework, but it seems to be rare for anyone to recommend using it now. I've seen some describe it as "bloated", and others were surprised there's an official Go guide for using Gin.
-
 #### [Fiber](https://gofiber.io/)
 
 `import "github.com/gofiber/fiber/v2"`
 
-Fiber's design is based on Express, the JavaScript framework. It has the best performance out of all of Go's widely used frameworks, but is specialized for specific cases and does not support some things like detecting when the client has closed the site's tab.
+Fiber's design is based on Express, the JavaScript framework. It has the best performance out of all of Go's widely used frameworks, but is specialized for specific use cases and does not support some things like detecting when the client has closed the site's tab.
+
+#### [Gin](https://github.com/gin-gonic/gin)
+
+`import "github.com/gin-gonic/gin"`
+
+Gin might be Go's most widely used HTTP framework, but in online discussions, almost all Go developers recommend against using it for a wide variety of reasons. Some describe it as "bloated" or as a framework designed for developers that prefer Java. Gin uses custom interfaces that make it incompatible with much of the rest of the ecosystem. Apparently it also has poor performance and error handling.
 
 ## Desktop apps
 
-Web-based GUI frameworks tend to have way more features than native GUI frameworks.
+Web-based GUI frameworks have way more features than native GUI frameworks, but may require more work to create simple GUIs.
 
 #### [Wails](https://wails.io/)
 
