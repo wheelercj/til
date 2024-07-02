@@ -1,7 +1,7 @@
 +++
 title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
-lastmod = 2024-06-30T18:50:34-07:00
+lastmod = 2024-07-01T18:16:31-07:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.
@@ -29,6 +29,7 @@ Here are various resources that are good to know about if you want to start lear
 * [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali - comparisons of various Go database libraries and why to not use an ORM
 * [Logging in Go with Slog: The Ultimate Guide](https://betterstack.com/community/guides/logging/logging-in-go/) by Better Stack Community
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
+* [My favorite build options for Go](https://opensource.com/article/22/4/go-build-options), by Gaurav Kamathe, covers commands that show how Go creates binaries, what intermediate assembly it uses, and how to make Go binaries smaller.
 * [Interface Upgrades in Go](https://avtok.com/2014/11/05/interface-upgrades.html) by Avtok
 
 ### error handling
