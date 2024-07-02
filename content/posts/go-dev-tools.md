@@ -51,6 +51,20 @@ A complete configuration solution for Go applications including [12-Factor apps]
 
 Release Go projects as fast and easily as possible. There's an [official GitHub Action](https://github.com/marketplace/actions/goreleaser-action).
 
+#### [gonew](https://go.dev/blog/gonew)
+
+`go install golang.org/x/tools/cmd/gonew@latest`
+
+A tool for instantiating new projects in Go from predefined templates.
+
+#### [air](https://github.com/air-verse/air)
+
+`go install github.com/air-verse/air@latest`
+
+Live reload for Go apps.
+
+## Code analysis
+
 #### [golangci-lint](https://github.com/golangci/golangci-lint)
 
 Fast linters runner for Go. They have an [official GitHub Action](https://github.com/golangci/golangci-lint-action).
@@ -67,25 +81,13 @@ Practical nil panic detection for Go. Created by Uber.
 
 A goroutine leak detector created by Uber.
 
-#### [gonew](https://go.dev/blog/gonew)
-
-`go install golang.org/x/tools/cmd/gonew@latest`
-
-A tool for instantiating new projects in Go from predefined templates.
-
 #### [deadcode](https://go.dev/blog/deadcode)
 
 `go install golang.org/x/tools/cmd/deadcode@latest`
 
 Find unreachable functions.
 
-#### [air](https://github.com/air-verse/air)
-
-`go install github.com/air-verse/air@latest`
-
-Live reload for Go apps.
-
-## Databases
+## Database tools
 
 #### [pgx](https://github.com/jackc/pgx)
 
@@ -109,7 +111,7 @@ A database migration tool that supports SQL migrations and Go functions. I haven
 
 In Go, it's common to build web servers without using a framework because Go has several excellent routers.
 
-The Go standard library's [net/http package](https://pkg.go.dev/net/http) has only the most basic features but is said to have the best performance.
+The Go standard library's [net/http](https://pkg.go.dev/net/http) package has only the most basic features but is said to have the best performance.
 
 Among third-party routers, [chi](https://github.com/go-chi/chi) and [gorilla/mux](https://github.com/gorilla/mux) are probably the most widely used. They are very similar. It appears gorilla/mux was more popular than chi in the past, but chi started catching up when gorilla/mux temporarily went unmaintained for a while. In online discussions, I almost always see people prefer chi over gorilla/mux. chi was implemented with a trie and gorilla/mux was implemented with regex.
 
@@ -141,7 +143,7 @@ Fiber's design is based on Express, the JavaScript framework. It has the best pe
 
 Gin might be Go's most widely used HTTP framework, but in online discussions, almost all Go developers recommend against using it for a wide variety of reasons. Some describe it as "bloated" or as a framework designed for developers that prefer Java. Gin uses custom interfaces that make it incompatible with much of the rest of the ecosystem. Apparently it also has poor performance and error handling.
 
-## Desktop apps
+## Desktop app frameworks
 
 Web-based GUI frameworks have way more features than native GUI frameworks, but may require more work to create simple GUIs.
 
