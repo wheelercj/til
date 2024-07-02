@@ -23,6 +23,12 @@ Load environment variables from .env files.
 
 A log rolling package for Go. This can be used as the backend behind the Go standard library's `log/slog` package.
 
+#### [templ](https://templ.guide/)
+
+`go install github.com/a-h/templ/cmd/templ@latest`
+
+Create components that render fragments of HTML and compose them to create screens, pages, documents, or apps. Using templ with [htmx](https://htmx.org/) is popular because it provides "many of the benefits of React with reduced overall complexity." React can also be used with templ; see [Using React with templ | templ docs](https://templ.guide/syntax-and-usage/using-react-with-templ/).
+
 #### [Cobra](https://github.com/spf13/cobra)
 
 `import "github.com/spf13/cobra"`
