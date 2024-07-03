@@ -40,6 +40,6 @@ I never heard the phrases "value types" and "reference types" until I started le
 
 ## further reading
 
-* [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go), by Dave Cheney, gives more examples specifically with Go.
+* [Pointers vs. references](/pointers-vs-references)
 * [C++ Move Semantics Considered Harmful (Rust is better)](https://www.thecodedmessage.com/posts/cpp-move/) by Jimmy Hartzell
 * [C++'s std::move function](https://en.cppreference.com/w/cpp/utility/move)

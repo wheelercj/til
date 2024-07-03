@@ -28,6 +28,7 @@ I created a list of commonly used Go packages and other dev tools at [Go dev too
 
 ### miscellaneous
 
+* [Pointers vs. references](/pointers-vs-references)
 * [Go Databases](https://blog.teamortix.com/posts/2021/08/go-databases/) by Hamza Ali - comparisons of various Go database libraries and why to not use an ORM
 * [Logging in Go with Slog: The Ultimate Guide](https://betterstack.com/community/guides/logging/logging-in-go/) by Better Stack Community
 * [Don't defer Close() on writable files](https://www.joeshaw.org/dont-defer-close-on-writable-files/) by Joe Shaw
