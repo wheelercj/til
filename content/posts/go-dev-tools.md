@@ -1,6 +1,7 @@
 +++
 title = 'Go dev tools'
 date = 2024-07-02T01:14:26-07:00
+lastmod = 2024-07-05T14:14:54-07:00
 +++
 
 Below are a bunch of commonly used packages and other tools for software development with Go. Go has excellent backwards and forwards compatability, so tools that haven't been updated in a long time may still be a great choice. Unless otherwise noted, each tool listed here appears to me to be good enough at what it does that I don't feel the need to look at alternatives.
@@ -22,6 +23,12 @@ Load environment variables from .env files.
 `import "gopkg.in/natefinch/lumberjack.v2"`
 
 A log rolling package for Go. This can be used as the backend behind the Go standard library's `log/slog` package.
+
+#### [gorilla/websocket](https://github.com/gorilla/websocket)
+
+`import "github.com/gorilla/websocket"`
+
+gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go. It passes the server tests in the [Autobahn Test Suite](https://github.com/crossbario/autobahn-testsuite).
 
 #### [templ](https://templ.guide/)
 
