@@ -53,6 +53,7 @@ I created a list of commonly used Go packages and other dev tools at [Go dev too
 
 * [Go docker images: small and simple](https://laurentsv.com/blog/2024/06/25/stop-the-go-and-docker-madness.html) by Laurent Demailly
 * [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) - language focused docker images, minus the operating system
+* [this discussion](https://github.com/golang/go/issues/26492) covers what build flags to try when you want to create a statically-linked binary
 * [publishing Go packages](/publishing-go-packages)
 * [Gokrazy](https://news.ycombinator.com/item?id=37583234) - deploy Go programs as appliances to a Raspberry Pi or PC
 
