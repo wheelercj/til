@@ -68,7 +68,7 @@ A tool for instantiating new projects in Go from predefined templates.
 
 `go install github.com/air-verse/air@latest`
 
-Live reload for Go apps.
+Live reload for Go apps. I'm not interested in this, but I often see people new to Go ask if something like this exists.
 
 ## Code analysis
 
