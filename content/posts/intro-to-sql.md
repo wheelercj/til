@@ -1,7 +1,7 @@
 +++
 title = 'Learning SQL'
 date = 2021-10-15T16:17:29-08:00
-lastmod = 2024-05-13T13:00:56-07:00
+lastmod = 2024-07-06T12:34:41-07:00
 +++
 
 SQL (Structured Query Language) is a commonly used and reliable way for programs to store and retrieve data. In many cases, it's much better in many ways than just using files directly.
@@ -20,6 +20,7 @@ There's a lot that can be learned about SQL. Here are some resources to get you 
 
 ## intermediate topics
 
+* [SQL Roadmap - roadmap.sh](https://roadmap.sh/sql)
 * [Sqlines](https://www.sqlines.com/home) is a collection of "tools to help you transfer data, convert database schema (DDL), views, stored procedures, packages, user-defined functions (UDFs), triggers, SQL queries, SQL scripts between different database platforms."
 * [_Learn Database Normalization - 1NF, 2NF, 3NF, 4NF, 5NF_ by Decomplexify](https://www.youtube.com/watch?v=GFQaEYEc8_8)
 * [_Use the Index, Luke!_ by Markus Winand](https://use-the-index-luke.com/)

@@ -1,7 +1,7 @@
 +++
 title = 'Learning C or C++'
 date = 2022-11-28T10:53:33-08:00
-lastmod = 2024-01-27T11:40:35-08:00
+lastmod = 2024-07-06T12:34:41-07:00
 +++
 
 Here are various resources for learning C and C++. Since C++ is almost a superset of C, everything here is relevant to C++.
@@ -17,6 +17,7 @@ Here are various resources for learning C and C++. Since C++ is almost a superse
 ## C++ only
 
 * [Learn X in Y minutes where X=C++](https://learnxinyminutes.com/docs/c++/)
+* [C++ Roadmap - roadmap.sh](https://roadmap.sh/cpp)
 * [LearnCpp.com](https://www.learncpp.com/)
 * [cplusplus.com](https://cplusplus.com/)
 * [How to Make Flappy Bird with C++](https://terminalroot.com/how-to-make-flappy-bird-with-cpp/) by Marcos Oliveira
