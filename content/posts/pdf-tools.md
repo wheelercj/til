@@ -17,7 +17,7 @@ Here are a bunch of tools I found for reading, editing, and more with PDFs. Of t
 * [Marker](https://github.com/vikparuchuri/marker) converts PDF to markdown, optionally using OCRmyPDF.
 * [pydigitize](https://news.ycombinator.com/item?id=30615279) uses OCRmyPDF and other tools to convert paper documents to PDFs ready for archival.
 * [Diff-pdf](https://news.ycombinator.com/item?id=40854319) is for visualizing the differences between two PDFs.
-* [PDF-Diff](https://news.ycombinator.com/item?id=32353479) another tool for visualizing the differences between two PDFs.
+* [PDF-Diff](https://news.ycombinator.com/item?id=32353479) is another tool for visualizing the differences between two PDFs.
 * [PDF Annotator](https://pdf-annotator.repeat.day/) is for signing and annotating PDFs.
 * [PDFTool](https://www.pdftool.org/en) is a collection of in-browser tools for encrypting, decrypting, optimizing, rotating, splitting, merging, OCRing, removing, and signing PDFs.
 * [PDFEquips](https://www.pdfequips.com) is a collection of online tools for encrypting, decrypting, compressing, rotating, splitting, merging, OCRing, rearranging, converting, numbering, translating, and watermarking PDFs. Its file converters work with many file types. According to its creator, "The files [on the server] are deleted immediately after processing" ([source](https://news.ycombinator.com/item?id=40337933#40340313#40338727:~:text=the%20files%20are%20deleted%20immediately%20after%20processing)).
