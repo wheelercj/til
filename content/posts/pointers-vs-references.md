@@ -24,4 +24,4 @@ Here's what "returned by reference" means:
 
 Both functions accessed the same copy of the reference variable, the same part of the computer's memory.
 
-All of this is true in Go when only *mutating* a map, slice, or channel, but not when *reassigning* it. Returning a reassigned map, slice, or channel does nothing to the variable. My guess is that this behavior makes Go's garbage collection more efficient since the scope of dynamically allocated memory is more predictable. Fortunately, the static analysis tools most people install by default seem to catch all coding mistakes related to this.
+All of this is true in Go when only *mutating* a map, slice, or channel, but not when *reassigning* it. Returning nothing after reassigning a map, slice, or channel does nothing to the variable. My guess is that this behavior makes Go's garbage collection more efficient since the scope of dynamically allocated memory is more predictable. Fortunately, the static analysis tools most people install by default seem to catch all coding mistakes related to this.
