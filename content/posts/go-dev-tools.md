@@ -1,7 +1,7 @@
 +++
 title = 'Go dev tools'
 date = 2024-07-02T01:14:26-07:00
-lastmod = 2024-07-10T11:04:31-07:00
+lastmod = 2024-07-11T16:00:16-07:00
 +++
 
 Below are a bunch of commonly used packages and other tools for software development with Go. Go has excellent backwards and forwards compatability, so tools that haven't been updated in a long time may still be a great choice. Unless otherwise noted, each tool listed here appears to me to be good enough at what it does that I don't feel the need to look at alternatives.
@@ -30,11 +30,17 @@ A log rolling package for Go. This can be used as the backend behind the Go stan
 
 gorilla/websocket is a fast, well-tested and widely used WebSocket implementation for Go. It passes the server tests in the [Autobahn Test Suite](https://github.com/crossbario/autobahn-testsuite).
 
+#### [markbates/goth](https://github.com/markbates/goth?tab=readme-ov-file)
+
+`import "github.com/markbates/goth"`
+
+Multi-provider authentication for Go.
+
 #### [templ](https://templ.guide/)
 
 `go install github.com/a-h/templ/cmd/templ@latest`
 
-Create components that render fragments of HTML and compose them to create screens, pages, documents, or apps. Using templ with [htmx](https://htmx.org/) is popular because it provides "many of the benefits of React with reduced overall complexity." React can also be used with templ; see [Using React with templ | templ docs](https://templ.guide/syntax-and-usage/using-react-with-templ/).
+Create components that render fragments of HTML and compose them to create screens, pages, documents, or apps. Using templ with [htmx](https://htmx.org/) is popular because it provides "many of the benefits of React with reduced overall complexity." React can also be used with templ; see [Using React with templ](https://templ.guide/syntax-and-usage/using-react-with-templ/).
 
 #### [Cobra](https://github.com/spf13/cobra)
 
@@ -100,23 +106,31 @@ Find unreachable functions. This tool never accidentally says a reachable functi
 
 ## Database tools
 
+[Go Wiki: SQL Database Drivers](https://go.dev/wiki/SQLDrivers)
+
 #### [pgx](https://github.com/jackc/pgx)
 
 `import "github.com/jackc/pgx/v5"`
 
-A PostgreSQL driver and toolkit for Go. Postgres seems to be by far the most popular choice among the SQL technologies in Go.
+A PostgreSQL driver and toolkit for Go. pgx is compatible with Go's `database/sql` package, but is slightly faster without it and has some Postgres-specific features that `database/sql` doesn't support. Postgres seems to be by far the most popular choice among the SQL technologies in Go outside of companies.
+
+#### [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql)
+
+`import _ "github.com/go-sql-driver/mysql"`
+
+A MySQL driver for Go's `database/sql` package.
 
 #### [sqlc](https://github.com/sqlc-dev/sqlc)
 
 `go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest`
 
-Generate type-safe code from SQL. sqlc is Go's most popular query builder and use of query builders is popular in Go; use of ORMs is strongly discouraged by almost all Go developers.
+Generate type-safe code from SQL. sqlc is Go's most popular query builder and use of query builders is popular in Go. Use of ORMs is strongly discouraged by almost all Go developers.
 
 #### [goose](https://github.com/pressly/goose)
 
 `go install github.com/pressly/goose/v3/cmd/goose@latest`
 
-A database migration tool that supports SQL migrations and Go functions. I haven't looked into alternatives for this yet.
+A database migration tool that supports SQL migrations and Go functions.
 
 ## HTTP routers
 
