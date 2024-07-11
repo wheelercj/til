@@ -1,7 +1,7 @@
 +++
 title = 'Learning Go'
 date = 2022-11-22T17:39:10-08:00
-lastmod = 2024-07-06T13:43:54-07:00
+lastmod = 2024-07-11T01:01:50-07:00
 +++
 
 Here are various resources that are good to know about if you want to start learning the Go programming language.
@@ -19,6 +19,7 @@ I created a list of commonly used Go packages and other dev tools at [Go dev too
 * [Go FAQs](https://go.dev/doc/faq)
 * [go.dev/learn](https://go.dev/learn/)
 * [Effective Go](https://go.dev/doc/effective_go)
+* [100 Go Mistakes and How to Avoid Them](https://100go.co/)
 * [Jamie Tanna's guide to learning Go](https://www.jvt.me/posts/2022/08/12/learning-new-language-go/)
 * [Learn X in Y minutes where X=Go](https://learnxinyminutes.com/docs/go/)
 * [_Learn Go With Tests_](https://quii.gitbook.io/learn-go-with-tests) by quii and Denise
