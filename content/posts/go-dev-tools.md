@@ -124,7 +124,7 @@ A MySQL driver for Go's `database/sql` package.
 
 `go install github.com/sqlc-dev/sqlc/cmd/sqlc@latest`
 
-Generate type-safe code from SQL. sqlc is Go's most popular query builder and use of query builders is popular in Go. Use of ORMs is strongly discouraged by almost all Go developers.
+Generate type-safe code from SQL. Use of ORMs is strongly discouraged by almost all Go developers.
 
 #### [goose](https://github.com/pressly/goose)
 
