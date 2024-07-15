@@ -143,3 +143,38 @@ td {
     text-align: left;
 }
 ```
+
+## redirecting
+
+Some of my notes here have improved enough over time that they feel blog-worthy, so I would like to move them to [my blog](https://chriswheeler.dev/). I don't want to break links to pages here though, so I looked into how to redirect to other pages.
+
+Hugo has something called [aliases](https://gohugo.io/methods/page/aliases/) for redirecting, but it only works between pages on the same domain. I want to redirect from a subdomain to a root domain, so I can't use aliases for this.
+
+HTML allows a few ways to redirect to a new page. Here's the way recommended on [Meta refresh - Wikipedia](https://en.wikipedia.org/wiki/Meta_refresh):
+
+```html
+<body onload="window.location = 'http://example.com/'">
+</body>
+```
+
+There's also this way that can apparently make the browser's back button get messed up:
+
+```html
+<head>
+	<meta http-equiv="refresh" content="0; URL='http://example.com/'" />
+</head>
+```
+
+Neither of these can be put directly into a post on a Hugo site since the `<head>` and `<body>` elements are outside of the post's scope.
+
+To solve this, I found the file in my theme with the `<body>` tag and changed it to this:
+
+```html
+<body {{- with .Params.redirect }} onload="window.location = '{{ . }}'"{{ end }}>
+```
+
+Now, I can make a post redirect anywhere by just adding a line like this to the post's front matter:
+
+```toml
+redirect = 'http://example.com/'
+```
