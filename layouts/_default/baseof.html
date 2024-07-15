@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
     {{- partial "head.html" . -}}
-    <body>
+    <body {{- with .Params.redirect }} onload="window.location = '{{ . }}'"{{ end }}>
         {{- partial "header.html" . -}}
         <main id="content">
         {{- block "main" . }}{{- end }}
