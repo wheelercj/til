@@ -5,6 +5,7 @@
         {{- partial "header.html" . -}}
         <main id="content">
         {{- block "main" . }}{{- end }}
+        {{- with .Params.redirect -}}<br><a href="{{ . }}">Click here to redirect.</a>{{- end -}}
         </main>
         {{- partial "footer.html" . -}}
     </body>

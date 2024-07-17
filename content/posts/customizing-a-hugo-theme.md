@@ -1,6 +1,7 @@
 +++
 title = 'Customizing a Hugo theme'
 date = 2024-01-15T15:47:01-08:00
+lastmod = 2024-07-16T23:18:58-07:00
 +++
 
 The [Etch](https://themes.gohugo.io/themes/etch/) theme is great, but I found a few ways to customize it so that it better meets my needs.
@@ -177,4 +178,10 @@ Now, I can make a post redirect anywhere by just adding a line like this to the 
 
 ```toml
 redirect = 'http://example.com/'
+```
+
+For those with JavaScript disabled, I also added a redirect link a few lines below the `body` tag:
+
+```html
+{{- with .Params.redirect -}}<br><a href="{{ . }}">Click here to redirect.</a>{{- end -}}
 ```
