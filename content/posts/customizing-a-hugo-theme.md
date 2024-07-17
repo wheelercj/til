@@ -1,7 +1,7 @@
 +++
 title = 'Customizing a Hugo theme'
 date = 2024-01-15T15:47:01-08:00
-lastmod = 2024-07-16T23:18:58-07:00
+lastmod = 2024-07-17T15:21:44-07:00
 +++
 
 The [Etch](https://themes.gohugo.io/themes/etch/) theme is great, but I found a few ways to customize it so that it better meets my needs.
@@ -184,4 +184,40 @@ For those with JavaScript disabled, I also added a redirect link a few lines bel
 
 ```html
 {{- with .Params.redirect -}}<br><a href="{{ . }}">Click here to redirect.</a>{{- end -}}
+```
+
+## allowing HTML in posts
+
+By default, Hugo does not allow HTML to be added to markdown files without converting it from HTML for security reasons. If you do want to use HTML in a post without having Hugo render it, you have two options: create a custom shortcode or turn off all HTML rendering.
+
+### create a custom shortcode
+
+In your `layouts/shortcodes` folder, create a file named `safeHtml.html` with content `{{- .Inner -}}`. Then you can use this custom shortcode in a markdown file like this: `{{</* safeHtml */>}}<h2>hello</h2>{{</* /safeHtml */>}}`.
+
+Here's more about shortcodes:
+
+- [Shortcodes | Hugo](https://gohugo.io/content-management/shortcodes/)
+- [Create your own shortcodes | Hugo](https://gohugo.io/templates/shortcode/)
+- [A shortcode collection for Hugo | RoneoOrg](https://github.com/RoneoOrg/hugo-shortcode-roneo-collection), which also links to several other shorcode collections
+
+### turn off all HTML rendering
+
+In your Hugo configuration file, add the setting below.
+
+If you use `hugo.toml`:
+
+```toml
+[markup.goldmark.renderer]
+  # Allows HTML in markdown
+  unsafe = true
+```
+
+If you use `hugo.yaml`:
+
+```yaml
+markup:
+  goldmark:
+    renderer:
+      # Allows HTML in markdown
+      unsafe: true
 ```
