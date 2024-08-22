@@ -14,6 +14,7 @@ lastmod = 2023-06-30T04:19:06-08:00
 * [regex for email addresses](https://emailregex.com/)
 * [Python's regex documentation](https://docs.python.org/3/library/re.html)
 * [Python regex for markdown](https://github.com/wheelercj/note-splitter/blob/main/src/note_splitter/patterns.py)
+* [pyrexp](https://pythonium.net/regex) for testing Python's regex
 * [sample markdown for regex tests](https://github.com/wheelercj/note-splitter/blob/main/src/tests/assets/sample_markdown.md)
 * [regex101's library](https://regex101.com/library)
 * [learnbyexample](https://learnbyexample.github.io/python-regex-possessive-quantifier/), which covers possessive quantifiers, atomic grouping, and catastrophic backtracking (a type of denial of service attack using regex).
