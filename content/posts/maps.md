@@ -13,6 +13,7 @@ Here are a bunch of neat online maps I found.
   * [SpotWx | All weather forecasts at a single location](https://spotwx.com/)
   * [College of DuPage Meteorology](https://weather.cod.edu/)
   * [NOAA / NWS Space Weather Prediction Center](https://www.swpc.noaa.gov/)
+  * [Real Time Lightning Map | LightningMaps.org](https://www.lightningmaps.org)
 * fires
   * [fire.airnow.gov | Fire and Smoke Map](https://fire.airnow.gov/)
   * [CAL FIRE | California Department of Forestry and Fire Protection](https://www.fire.ca.gov/)
@@ -25,7 +26,6 @@ Here are a bunch of neat online maps I found.
 * [GeoGuessr | Let's explore the world!](https://www.geoguessr.com/)
 * [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 * [earthquake.usgs.gov | Latest Earthquakes](https://earthquake.usgs.gov/earthquakes/map/)
-* [Real Time Lightning Map | LightningMaps.org](https://www.lightningmaps.org)
 * [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
 * [MarineTraffic | Global Ship Tracking Intelligence](https://www.marinetraffic.com/en/ais/home)
 * [Submarine Cable Map](https://www.submarinecablemap.com/)
