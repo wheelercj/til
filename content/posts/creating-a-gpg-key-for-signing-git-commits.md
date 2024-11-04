@@ -1,7 +1,7 @@
 +++
 title = 'Creating a GPG key for signing Git commits'
 date = 2024-01-25T13:10:00-08:00
-lastmod = 2024-01-29T15:39:38-08:00
+lastmod = 2024-11-03T22:21:40-08:00
 +++
 
 I'm reading [What is Commit Signing in Git?](https://www.freecodecamp.org/news/what-is-commit-signing-in-git) by freeCodeCamp. It suggests using Git Bash.
@@ -83,3 +83,7 @@ I saved my public and private keys to my password manager, but I'm not sure how 
 The key's password is being requested on almost every commit, which is annoying. [This Stack Exchange](https://superuser.com/questions/624343/keep-gnupg-credentials-cached-for-entire-user-session) discussion describes how to increase how long the password is cached by gpg-agent. If the file `gpg-agent.conf` doesn't exist, it's fine to create it.
 
 Device restarts clear the cache.
+
+## moving to Ubuntu
+
+I'm switching from Windows 11 to Ubuntu. I copied my `.gitconfig` file without changes. It has my name, email, & signing key, and `gpgsign` is set to true. When I first tried to commit in Ubuntu, I got the error message "error: gpg failed to sign the data". To fix this, I needed to copy/download my secret key I saved from Windows 11, run `gpg --import secret-key.asc` on it, and then delete the secret key file. I don't know if all secret keys have the .asc extension. I was then able to confirm the import with `gpg --list-keys`. Now I am able to commit in Ubuntu.
