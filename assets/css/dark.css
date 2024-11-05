@@ -93,6 +93,10 @@ td {
     text-align: left;
 }
 
+td.js-line-number {
+    border: none;
+}
+
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}

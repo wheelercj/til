@@ -1,7 +1,7 @@
 +++
 title = 'Customizing a Hugo theme'
 date = 2024-01-15T15:47:01-08:00
-lastmod = 2024-07-17T15:21:44-07:00
+lastmod = 2024-11-05T10:15:31-08:00
 +++
 
 The [Etch](https://themes.gohugo.io/themes/etch/) theme is great, but I found a few ways to customize it so that it better meets my needs.
@@ -142,6 +142,18 @@ td {
     border-collapse: collapse;
     padding: 0.5rem;
     text-align: left;
+}
+```
+
+However, Etch also uses tables for some code blocks. The CSS above adds a bunch of borders that make those code blocks look worse:
+
+![code-block-line-number-borders.png](/code-block-line-number-borders.png)
+
+This is fixed by adding a litte more CSS:
+
+```css
+td.js-line-number {
+    border: none;
 }
 ```
 
