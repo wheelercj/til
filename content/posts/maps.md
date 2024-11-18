@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-09-10T17:27:55-07:00
+lastmod = 2024-11-17T22:46:22-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -48,7 +48,7 @@ Here are a bunch of neat online maps I found.
 
 - [Electricity Maps | Live 24/7 CO₂ emissions of electricity consumption](https://app.electricitymaps.com/map)
 - [Electric Grid Status](https://www.gridstatus.io/)
-- [Washington Power Outages Map](https://poweroutage.us/area/state/washington)
+- [PowerOutage.us](https://poweroutage.us)
 
 ## Marine
 
