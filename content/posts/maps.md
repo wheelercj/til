@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-11-17T22:46:22-08:00
+lastmod = 2024-11-23T19:01:22-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -13,6 +13,7 @@ Here are a bunch of neat online maps I found.
 - [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 - [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
 - [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
+- [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
 - [Cancer rates in the United States](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
 - [Create your own Custom Map | MapChart](https://www.mapchart.net/)
 
