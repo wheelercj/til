@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-11-23T19:01:22-08:00
+lastmod = 2024-12-10T14:53:31-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -9,6 +9,7 @@ Here are a bunch of neat online maps I found.
 - [The True Size](https://www.thetruesize.com/)
 - [GeoGuessr | Let's explore the world!](https://www.geoguessr.com/)
 - [earthquake.usgs.gov | Latest Earthquakes](https://earthquake.usgs.gov/earthquakes/map/)
+- [Pastmaps | Maps for Historical Research](https://pastmaps.com/)
 - [Open Infrastructure Map](https://openinframap.org/)
 - [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 - [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
