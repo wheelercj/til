@@ -1,6 +1,7 @@
 +++
 title = 'Setting up Solaar for Ubuntu'
 date = 2024-11-04T22:37:04-08:00
+lastmod = 2024-12-18T16:40:59-08:00
 +++
 
 I'm switching from Windows 11 to Ubuntu 22.04.5 LTS, and my mouse's (Logitech MX Vertical) official software for rebinding buttons isn't supported. That's why I'm using [Solaar](https://github.com/pwr-Solaar/Solaar?tab=readme-ov-file) to rebind the mouse buttons. It's a little confusing to set up.
@@ -42,6 +43,7 @@ While figuring this out, discussions online mentioned that figuring out which ke
 
 ## Further reading
 
+- [Solaar is a Linux manager for many Logitech keyboards, mice, and other devices \| Hacker News](https://news.ycombinator.com/item?id=42454359)
 - [Solaar | Linux device manager for Logitech devices](https://pwr-solaar.github.io/Solaar/)
 - [Solaar GUI Usage | Solaar](https://pwr-solaar.github.io/Solaar/usage)
 - [Rule Processing of HID++ Notifications | Solaar](https://pwr-solaar.github.io/Solaar/rules)
