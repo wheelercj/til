@@ -1,6 +1,7 @@
 +++
 title = 'Choosing an audio device with the terminal'
 date = 2024-12-22T18:00:52-08:00
+lastmod = 2024-12-22T23:03:19-08:00
 +++
 
 I often switch between using speakers and headphones. My Ubuntu laptop sometimes automatically switches to the correct device when I plug in or unplug headphones like it's supposed to. However, for some reason it sometimes chooses an option that cannot play audio: `HDMI / DisplayPort 2 Output - Renoir Radeon High Definition Audio Controller`.
@@ -13,7 +14,9 @@ With some reading and experimentation, I found that this command switches to the
 pacmd set-default-sink 3
 ```
 
-The `3` is the `index` of the audio device listed with `pacmd list-sinks`. This command has a lot of output, but you only need to look at the values of the `device.description` properties to find the right one.
+The `3` is the `index` of the audio device listed with `pacmd list-sinks`. "Sink" is a category of audio devices that includes speakers, and "source" includes microphones. Data travels from sources and to sinks within the computer.
+
+The `pacmd list-sinks` command has a lot of output, but you only need to look at the values of the `device.description` properties to find the right one.
 
 With that information, I created a custom command by adding to my `~/.bashrc`:
 
