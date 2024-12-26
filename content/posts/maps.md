@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-12-12T16:19:00-08:00
+lastmod = 2024-12-26T12:06:58-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -17,7 +17,11 @@ Here are a bunch of neat online maps I found.
 - [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
 - [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
 - [Cancer rates in the United States](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
+- [The National Map - Data Delivery \| U.S. Geological Survey](https://www.usgs.gov/the-national-map-data-delivery)
 - [Create your own Custom Map | MapChart](https://www.mapchart.net/)
+- [Switzerland in 3D](https://www.swisstopo.admin.ch/en/switzerland-in-3d)
+- [3D model of Tokyo \| Tokyo Digital Twin Project](https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/3dmodel/)
+- [LiDAR 2022 — City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/lidar-2022/map/?location=11,49.24652,-123.10387)
 
 ## Weather
 
