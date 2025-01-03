@@ -1,7 +1,7 @@
 +++
 title = 'Learning Python'
 date = 2022-01-09T12:37:27-08:00
-lastmod = 2024-07-06T12:34:41-07:00
+lastmod = 2025-01-03T14:12:53-08:00
 +++
 
 * [Think Python, 3rd edition](https://allendowney.github.io/ThinkPython/) by Allen B. Downey
@@ -13,4 +13,5 @@ lastmod = 2024-07-06T12:34:41-07:00
 * [Practical Python Programming](https://dabeaz-course.github.io/practical-python/) by David Beazley
 * [Boxes: Your Second Python Book](https://ralsina.gitlab.io/boxes-book/) by Roberto Alsina
 * [Structuring Your Project](https://docs.python-guide.org/writing/structure/) by Kenneth Reitz & Real Python
+* [Automated Testing in Python with pytest, tox, and GitHub Actions - YouTube](https://www.youtube.com/watch?v=DhUpxWjOhME)
 * [Advanced Python Mastery](https://news.ycombinator.com/item?id=36785005) by David Beazley
