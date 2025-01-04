@@ -8,7 +8,7 @@ pygmentsUseClasses = true  # for syntax highlighting
 
 [params]
   description = "A bunch of posts about what I learned"
-  copyright = "Copyright © 2020-2024 Chris Wheeler"
+  copyright = "Copyright © 2020-2025 Chris Wheeler"
   dark = "auto"
   highlight = true  # for syntax highlighting
 
