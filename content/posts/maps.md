@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2024-12-26T12:06:58-08:00
+lastmod = 2025-01-03T20:21:12-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -12,12 +12,9 @@ Here are a bunch of neat online maps I found.
 - [earthquake.usgs.gov | Latest Earthquakes](https://earthquake.usgs.gov/earthquakes/map/)
 - [Pastmaps | Maps for Historical Research](https://pastmaps.com/)
 - [Open Infrastructure Map](https://openinframap.org/)
-- [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 - [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
 - [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
-- [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
-- [Cancer rates in the United States](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
-- [The National Map - Data Delivery \| U.S. Geological Survey](https://www.usgs.gov/the-national-map-data-delivery)
+- [U.S. Geological Survey](https://www.usgs.gov/the-national-map-data-delivery)
 - [Create your own Custom Map | MapChart](https://www.mapchart.net/)
 - [Switzerland in 3D](https://www.swisstopo.admin.ch/en/switzerland-in-3d)
 - [3D model of Tokyo \| Tokyo Digital Twin Project](https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/3dmodel/)
@@ -32,6 +29,7 @@ Here are a bunch of neat online maps I found.
 - [College of DuPage Meteorology](https://weather.cod.edu/)
 - [NOAA / NWS Space Weather Prediction Center](https://www.swpc.noaa.gov/)
 - [Real Time Lightning Map | LightningMaps.org](https://www.lightningmaps.org)
+- [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 
 ## Fires
 
@@ -68,6 +66,11 @@ Here are a bunch of neat online maps I found.
 - [trains.fyi](https://trains.fyi/)
 - [NYC Subwaysheds](https://subwaysheds.com)
 - [Mini Tokyo 3D](https://minitokyo3d.com/)
+
+## Health
+
+- [Cancer rates](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
+- [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
 
 ## The ones almost everyone knows
 
