@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-01-03T20:21:12-08:00
+lastmod = 2025-01-12T00:37:15-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -37,6 +37,11 @@ Here are a bunch of neat online maps I found.
 - [CAL FIRE | California Department of Forestry and Fire Protection](https://www.fire.ca.gov/)
 - [InciWeb the Incident Information System (wildfires)](https://inciweb.nwcg.gov/)
 
+## Health
+
+- [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
+- [Cancer rates](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
+
 ## Light
 
 - [Light pollution map](https://www.lightpollutionmap.info/)
@@ -67,11 +72,6 @@ Here are a bunch of neat online maps I found.
 - [NYC Subwaysheds](https://subwaysheds.com)
 - [Mini Tokyo 3D](https://minitokyo3d.com/)
 
-## Health
-
-- [Cancer rates](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
-- [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
-
 ## The ones almost everyone knows
 
 - [OpenStreetMap](https://www.openstreetmap.org)
@@ -80,3 +80,5 @@ Here are a bunch of neat online maps I found.
 - [Google Earth](https://earth.google.com/web)
 - [Google Mars](https://www.google.com/mars/)
 - [Google Moon](https://www.google.com/moon/)
+
+One of my goals for this page is to include only the sites that you might want to visit more than once.
