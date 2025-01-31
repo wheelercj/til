@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-01-13T12:39:50-08:00
+lastmod = 2025-01-31T13:14:56-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -30,6 +30,7 @@ Here are a bunch of neat online maps I found.
 - [NOAA / NWS Space Weather Prediction Center](https://www.swpc.noaa.gov/)
 - [Real Time Lightning Map | LightningMaps.org](https://www.lightningmaps.org)
 - [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
+- [UK Sewage Spills Map](https://www.sewagemap.co.uk/)
 - [River Runner Global](https://river-runner-global.samlearner.com/)
 
 ## Fires
