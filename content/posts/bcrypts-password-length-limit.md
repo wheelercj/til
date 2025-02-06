@@ -1,6 +1,7 @@
 +++
 title = "Bcrypt's password length limit"
 date = 2023-08-10T01:57:33-08:00
+lastmod = 2025-02-05T19:46:38-08:00
 +++
 
 Using [npm's bcrypt v5.1.0](https://www.npmjs.com/package/bcrypt/v/5.1.0), the maximum possible password length without truncation nor preliminary hashing is 72 ASCII **characters** (not just bytes!) as proven with the below script, which:
@@ -57,6 +58,11 @@ async function testBcrypt() {
 testBcrypt();
 ```
 
-There are different implementations of bcrypt that have different capabilities, so this may not apply to any other packages or even other versions of the same package. Further reading: [does bcrypt have a maximum password length?](https://security.stackexchange.com/questions/39849/does-bcrypt-have-a-maximum-password-length)
+There are different implementations of bcrypt that have different capabilities, so this may not apply to any other packages or even other versions of the same package.
 
 Side note: if you're going to make a random password generator for real password use, don't do it this way because it's not cryptographically secure.
+
+## Further reading
+
+- [Does bcrypt have a maximum password length? \| Information Security Stack Exchange](https://security.stackexchange.com/questions/39849/does-bcrypt-have-a-maximum-password-length)
+- [Okta Bcrypt incident lessons for designing better APIs \| Hacker News](https://news.ycombinator.com/item?id=42955176)
