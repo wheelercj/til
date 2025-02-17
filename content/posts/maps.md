@@ -62,6 +62,14 @@ Here are a bunch of neat online maps I found.
 - [Electricity Maps | Live 24/7 CO₂ emissions of electricity consumption](https://app.electricitymaps.com/map)
 - [Electric Grid Status](https://www.gridstatus.io/)
 - [PowerOutage.us](https://poweroutage.us)
+- [PG&E Outage Map](https://pgealerts.alerts.pge.com/outage-tools/outage-map/)
+- [PSE&G Outage Map](https://outagecenter.pseg.com/external/default.html)
+- [ComEd Outage Map](https://secure.comed.com/FaceBook/Pages/outagemap.aspx?ipid=promo-link-block1)
+- [Georgia Power Outage Map](https://outagemap.georgiapower.com/)
+- [Puget Sound Energy Outage Map](https://www.pse.com/en/outage/outage-map)
+- [Duke Energy Outage Map](https://outagemaps.duke-energy.com/)
+- [Oncor Outage Map](https://stormcenter.oncor.com/)
+- [Monkeybrains Outage Map](https://www.monkeybrains.net/map/)
 
 ## Marine
 
