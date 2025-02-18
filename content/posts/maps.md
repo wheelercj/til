@@ -45,6 +45,11 @@ Here are a bunch of neat online maps I found.
 - [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
 - [Cancer rates](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
 
+## Biking
+
+- [cycle.travel | Cycle route planner](https://cycle.travel/map)
+- [Gravelmap | Gravel Road Maps and Biking Routes](https://www.gravelmap.com/map)
+
 ## Light
 
 - [Light pollution map](https://www.lightpollutionmap.info/)
