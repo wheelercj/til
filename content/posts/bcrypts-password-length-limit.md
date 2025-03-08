@@ -1,10 +1,10 @@
 +++
 title = "Bcrypt's password length limit"
 date = 2023-08-10T01:57:33-08:00
-lastmod = 2025-02-05T19:46:38-08:00
+lastmod = 2025-03-07T18:57:24-08:00
 +++
 
-Using [npm's bcrypt v5.1.0](https://www.npmjs.com/package/bcrypt/v/5.1.0), the maximum possible password length without truncation nor preliminary hashing is 72 ASCII **characters** (not just bytes!) as proven with the below script, which:
+Using [npm's bcrypt v5.1.0](https://www.npmjs.com/package/bcrypt/v/5.1.0), the maximum possible password length without truncation nor preliminary hashing is 72 bytes (e.g. 72 ASCII characters) as proven with the below script, which:
 
 1. randomly generates a password of length 73
 2. creates truncated password copies of lengths 72 and 71
