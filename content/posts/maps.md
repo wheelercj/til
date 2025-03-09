@@ -1,13 +1,12 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-01-31T13:14:56-08:00
+lastmod = 2025-03-08T21:33:59-08:00
 +++
 
 Here are a bunch of neat online maps I found.
 
 - [The True Size](https://www.thetruesize.com/)
-- [GeoGuessr | Let's explore the world!](https://www.geoguessr.com/)
 - [Citymapper | The Ultimate Transport App](https://citymapper.com/)
 - [earthquake.usgs.gov | Latest Earthquakes](https://earthquake.usgs.gov/earthquakes/map/)
 - [Pastmaps | Maps for Historical Research](https://pastmaps.com/)
@@ -19,6 +18,11 @@ Here are a bunch of neat online maps I found.
 - [Switzerland in 3D](https://www.swisstopo.admin.ch/en/switzerland-in-3d)
 - [3D model of Tokyo \| Tokyo Digital Twin Project](https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/3dmodel/)
 - [LiDAR 2022 — City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/lidar-2022/map/?location=11,49.24652,-123.10387)
+
+## Location guessing games
+
+- [GeoGuessr](https://www.geoguessr.com/)
+- [WorldGuessr | a free alternative to Geoguessr](https://www.worldguessr.com/)
 
 ## Weather
 
