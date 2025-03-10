@@ -8,7 +8,7 @@ date = 2025-03-10T13:20:57-07:00
 3. Add `"check-types": "npx tsc"` to the `scripts` object in package.json
 4. Run `npm run check-types` to check types
 
-Type annocations can be written with [JSDoc](https://jsdoc.app/) syntax. I often refer to [Jsdoc cheatsheet](https://devhints.io/jsdoc).
+Type annotations can be written with [JSDoc](https://jsdoc.app/) syntax. I often refer to [Jsdoc cheatsheet](https://devhints.io/jsdoc).
 
 ## Further reading
 
