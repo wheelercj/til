@@ -1,11 +1,12 @@
 +++
 title = 'Learning Python'
 date = 2022-01-09T12:37:27-08:00
-lastmod = 2025-01-03T14:12:53-08:00
+lastmod = 2025-04-16T22:34:55-07:00
 +++
 
 * [Think Python, 3rd edition](https://allendowney.github.io/ThinkPython/) by Allen B. Downey
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) by Al Sweigart
+* [Real Python](https://realpython.com/)
 * [CoreyMS](https://www.youtube.com/@coreyms/featured)
 * [mCoding](https://www.youtube.com/c/mCodingWithJamesMurphy)
 * [The official Python tutorial](https://docs.python.org/3/tutorial/)
