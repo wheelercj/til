@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-04-24T19:38:24-07:00
+lastmod = 2025-04-24T19:39:29-07:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -52,6 +52,7 @@ Here are a bunch of neat online maps I found.
 ## Flights
 
 - [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
+- [National Airspace System Status | FAA](https://nasstatus.faa.gov/map)
 - [FlightAware MiseryMap®](https://www.flightaware.com/miserymap/)
 
 ## Biking
