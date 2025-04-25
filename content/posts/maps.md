@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-03-08T21:33:59-08:00
+lastmod = 2025-04-24T19:34:34-07:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -12,7 +12,6 @@ Here are a bunch of neat online maps I found.
 - [Pastmaps | Maps for Historical Research](https://pastmaps.com/)
 - [Open Infrastructure Map](https://openinframap.org/)
 - [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
-- [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
 - [U.S. Geological Survey](https://www.usgs.gov/the-national-map-data-delivery)
 - [Create your own Custom Map | MapChart](https://www.mapchart.net/)
 - [Switzerland in 3D](https://www.swisstopo.admin.ch/en/switzerland-in-3d)
@@ -48,6 +47,11 @@ Here are a bunch of neat online maps I found.
 
 - [NWSS Wastewater Monitoring in the U.S. | CDC](https://www.cdc.gov/nwss/)
 - [Cancer rates](https://statecancerprofiles.cancer.gov/map/map.withimage.php)
+
+## Flights
+
+- [Flightradar24 | Real-Time Flight Tracker Map](https://www.flightradar24.com)
+- [FlightAware MiseryMap®](https://www.flightaware.com/miserymap/)
 
 ## Biking
 
