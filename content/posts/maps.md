@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-04-24T19:34:34-07:00
+lastmod = 2025-04-24T19:38:24-07:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -14,6 +14,7 @@ Here are a bunch of neat online maps I found.
 - [satellites and debris](http://astria.tacc.utexas.edu/AstriaGraph/)
 - [U.S. Geological Survey](https://www.usgs.gov/the-national-map-data-delivery)
 - [Create your own Custom Map | MapChart](https://www.mapchart.net/)
+- [Digital Giza](http://giza.fas.harvard.edu/giza3d/)
 - [Switzerland in 3D](https://www.swisstopo.admin.ch/en/switzerland-in-3d)
 - [3D model of Tokyo \| Tokyo Digital Twin Project](https://info.tokyo-digitaltwin.metro.tokyo.lg.jp/3dmodel/)
 - [LiDAR 2022 — City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/lidar-2022/map/?location=11,49.24652,-123.10387)
