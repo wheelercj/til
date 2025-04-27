@@ -27,7 +27,7 @@ print(f"{max_id = }")
 print(f"{len(str(max_id)) = }")
 
 for i in tqdm(range(max_id)):
-    print(end='')
+    print(end="")
 ```
 
 On my relatively fast computer, this code would take about 185 years to finish. This is a rough approximation for how long it would take to steal *each table*, not the entire database. Even if a table is almost empty, the code won't run any faster. The attacker could use a more efficient language than Python, but the database query will probably still be slower than the code above.
