@@ -35,7 +35,7 @@ My custom command stopped working, and now gives the error message `Sink 3 does 
 I found the correct sink again:
 
 ```bash
-chris@chris-Zenbook-Ubuntu:~$ pacmd list-sinks | grep device.description
+$ pacmd list-sinks | grep device.description
 		device.description = "Family 17h (Models 10h-1fh) HD Audio Controller Speaker + Headphones"
 		device.description = "Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 3 Output"
 		device.description = "Renoir Radeon High Definition Audio Controller HDMI / DisplayPort 2 Output"
@@ -45,7 +45,7 @@ chris@chris-Zenbook-Ubuntu:~$ pacmd list-sinks | grep device.description
 The first sink's data starts with this:
 
 ```bash
-chris@chris-Zenbook-Ubuntu:~$ pacmd list-sinks
+$ pacmd list-sinks
 4 sink(s) available.
     index: 1
 	name: <alsa_output.pci-0000_04_00.6.HiFi__hw_Generic_1__sink>

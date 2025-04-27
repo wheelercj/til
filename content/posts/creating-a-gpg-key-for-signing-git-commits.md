@@ -61,7 +61,6 @@ sub   rsa4096 2024-01-25 [E]
 Here's the output from `gpg --list-keys`:
 
 ```shell
-chris@chris_zenbook MINGW64 ~
 $ gpg --list-keys
 gpg: checking the trustdb
 gpg: marginals needed: 3  completes needed: 1  trust model: pgp

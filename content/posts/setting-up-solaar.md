@@ -16,7 +16,7 @@ sudo apt install solaar
 At least for Ubuntu 22.04.5 LTS with Wayland, don't install using the PPA because it results in various errors like these:
 
 ```shell
-chris@chris-Zenbook-Ubuntu:~$ solaar --version
+$ solaar --version
 rules cannot access modifier keys in Wayland, accessing process only works on GNOME with Solaar Gnome extension installed
 cannot create uinput device: "/dev/uinput" cannot be opened for writing
 solaar 1.1.13
@@ -27,7 +27,7 @@ solaar 1.1.13
 Following the instructions above, you should get output like this:
 
 ```shell
-chris@chris-Zenbook-Ubuntu:~$ solaar --version
+$ solaar --version
 solaar 1.1.1
 ```
 
