@@ -1,7 +1,7 @@
 +++
 title = 'Why not cron on workstation'
 date = 2025-04-09T17:42:07-07:00
-lastmod = 2025-04-17T15:44:21-07:00
+lastmod = 2025-05-16T01:40:03-07:00
 +++
 
 It's often helpful to use some scripts for organizing files and other regular workstation maintenance. For example, I sometimes make a local backup of my emails by running `timeout 30 thunderbird --headless`, which opens Thunderbird without opening the GUI and closes it 30 seconds later.
@@ -52,7 +52,9 @@ from collections.abc import Callable
 from functools import wraps
 
 
-def job(f1: Callable[..., None] | None = None, name: str | None = None) -> Callable[..., None]:
+def job(
+    f1: Callable[..., None] | None = None, name: str | None = None
+) -> Callable[..., None | Callable[..., None]]:
     """A decorator factory that adds a confirmation prompt
 
     This decorator can be used with or without arguments.
