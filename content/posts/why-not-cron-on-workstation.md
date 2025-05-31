@@ -89,3 +89,77 @@ def job(
     else:
         return decorator(f1)
 ```
+
+## 2025/5/31 update
+
+Some of the jobs I defined require temporarily plugging in a flash drive or other external drive. Below is a context manager that makes the device easier to automate. It uses some platform-dependent commands.
+
+```py
+import subprocess
+from contextlib import contextmanager
+from pathlib import Path
+from time import sleep
+from typing import Generator
+
+
+@contextmanager
+def external_device(location: Path) -> Generator[None]:
+    _ = input(f"Plug in {location.name}, then press enter")
+    sleep(2)
+    if not location.is_dir():
+        raise RuntimeError(f"{location.name} was not found")
+    print(f"Found {location.name}")
+
+    try:
+        yield
+    finally:
+        print(f"Getting {location.name} device name to eject it")
+        lsblk_process = subprocess.Popen(
+            ["lsblk"],
+            stdout=subprocess.PIPE,
+            text=True,
+        )
+        assert lsblk_process.stdout
+        grep_process = subprocess.Popen(
+            ["grep", "-i", location.name],
+            stdin=lsblk_process.stdout,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+        lsblk_process.stdout.close()  # allow lsblk to finish if grep exits early
+        output, errors = grep_process.communicate()
+        if grep_process.returncode != 0:
+            raise RuntimeError(f"grep: {errors}")
+
+        device_name: str = output.split()[0].strip("└─")
+        print(f"{device_name = }")
+
+        print(f"Unmounting {location.name}")
+        subprocess.run(
+            ["udisksctl", "unmount", "--block-device", "/dev/" + device_name],
+            check=True,
+        )
+        print(f"Powering off {location.name}")
+        subprocess.run(
+            ["udisksctl", "power-off", "--block-device", "/dev/" + device_name.rstrip("0123456789")],
+            check=True,
+        )
+        print(f"{location.name} ejected")
+
+        _ = input(f"Unplug {location.name}, then press enter")
+
+```
+
+You can use the function like this:
+
+```py
+import shutil
+from pathlib import Path
+
+
+flash_drive = Path("/media/chris/SanDisk")
+with external_device(flash_drive):
+    print(f"Moving file onto {flash_drive.name}")
+    shutil.move(file_path, flash_drive / "my folder")
+```
