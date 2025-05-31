@@ -103,7 +103,9 @@ from typing import Generator
 
 
 @contextmanager
-def external_device(location: Path) -> Generator[None]:
+def external_device(path: str) -> Generator[Path]:
+    location: Path = Path(path)
+
     _ = input(f"Plug in {location.name}, then press enter")
     sleep(2)
     if not location.is_dir():
@@ -111,7 +113,7 @@ def external_device(location: Path) -> Generator[None]:
     print(f"Found {location.name}")
 
     try:
-        yield
+        yield location
     finally:
         print(f"Getting {location.name} device name to eject it")
         lsblk_process = subprocess.Popen(
@@ -158,12 +160,13 @@ import shutil
 from pathlib import Path
 
 
-file_path = "my_file.txt"
+file = Path("my_file.txt")
 
-flash_drive = Path("/media/chris/SanDisk")
-with external_device(flash_drive):
+with external_device("/media/chris/SanDisk") as flash_drive:
     print(f"Moving file onto {flash_drive.name}")
-    shutil.move(file_path, flash_drive / "my_folder")
+    shutil.move(file, flash_drive / "my_folder")
 ```
+
+`flash_drive` is a [pathlib.Path](https://docs.python.org/3/library/pathlib.html).
 
 Find out what path to use for the device by plugging it in and running `ls /media/<your user name>`. The device should in the list.
