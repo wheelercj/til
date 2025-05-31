@@ -92,7 +92,7 @@ def job(
 
 ## 2025/5/31 update
 
-Some of the jobs I defined require temporarily plugging in a flash drive or other external drive. Below is a context manager that makes the device easier to automate. It uses some platform-dependent commands.
+Some of the jobs I defined require temporarily plugging in a flash drive or other external drive. Below is a context manager that makes the device easier to automate. It uses some platform-dependent commands (I'm using Ubuntu).
 
 ```py
 import subprocess
@@ -163,3 +163,5 @@ with external_device(flash_drive):
     print(f"Moving file onto {flash_drive.name}")
     shutil.move(file_path, flash_drive / "my folder")
 ```
+
+Find out what path to use for the device by plugging it in and running `ls /media/<your user name>`.
