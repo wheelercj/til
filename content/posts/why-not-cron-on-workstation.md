@@ -1,7 +1,7 @@
 +++
 title = 'Why not cron on workstation'
 date = 2025-04-09T17:42:07-07:00
-lastmod = 2025-05-16T01:40:03-07:00
+lastmod = 2025-05-31T12:41:20-07:00
 +++
 
 It's often helpful to use some scripts for organizing files and other regular workstation maintenance. For example, I sometimes make a local backup of my emails by running `timeout 30 thunderbird --headless`, which opens Thunderbird without opening the GUI and closes it 30 seconds later.
@@ -19,12 +19,12 @@ The script is very simple right now. Here's part of it:
 ```python
 def main():
     now: datetime = datetime.now()
-    today: str = str(now.year) + '-' + str(now.month).zfill(2) + '-' + str(now.day).zfill(2)
+    today: str = str(now.year) + "-" + str(now.month).zfill(2) + "-" + str(now.day).zfill(2)
 
     try:
         cwd: str = os.getcwd()
-        print('Temporarily moving to the downloads folder')
-        os.chdir('/home/chris/Downloads')
+        print("Temporarily moving to the downloads folder")
+        os.chdir("/home/chris/Downloads")
 
         check_restic_backup_config()
         open_thunderbird()
@@ -35,7 +35,7 @@ def main():
         back_up_firefox_bookmarks(today)
         back_up_todoist_tasks()
     finally:
-        print('Moving back to the previous folder')
+        print("Moving back to the previous folder")
         os.chdir(cwd)
 ```
 
@@ -75,11 +75,11 @@ def job(
         @wraps(f2)
         def inner(*args, **kwargs):
             while True:
-                ok: str = input(f'Run {name_s}? (y/n): ')
-                if ok.lower() in ('y', 'yes'):
+                ok: str = input(f"Run {name_s}? (y/n): ")
+                if ok.lower() in ("y", "yes"):
                     f2(*args, **kwargs)
                     return
-                elif ok.lower() in ('n', 'no'):
+                elif ok.lower() in ("n", "no"):
                     return
 
         return inner
