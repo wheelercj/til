@@ -1,7 +1,7 @@
 +++
 title = 'Why not cron on workstation'
 date = 2025-04-09T17:42:07-07:00
-lastmod = 2025-05-31T12:41:20-07:00
+lastmod = 2025-06-03T01:42:17-07:00
 +++
 
 It's often helpful to use some scripts for organizing files and other regular workstation maintenance. For example, I sometimes make a local backup of my emails by running `timeout 30 thunderbird --headless`, which opens Thunderbird without opening the GUI and closes it 30 seconds later.
@@ -103,7 +103,7 @@ from typing import Generator
 
 
 @contextmanager
-def external_device(path: str) -> Generator[Path]:
+def external_device(path: str | Path) -> Generator[Path]:
     location: Path = Path(path)
 
     _ = input(f"Plug in {location.name}, then press enter")
