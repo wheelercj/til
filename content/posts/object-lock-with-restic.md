@@ -1,7 +1,10 @@
 +++
 title = 'Object lock with Restic'
 date = 2025-03-26T23:35:34-07:00
+lastmod = 2025-06-07T18:36:50-07:00
 +++
+
+2025/6/7 update: Restic v0.19 hasn't been released yet, but [this HN discussion](https://news.ycombinator.com/item?id=44211612) covers how to set up Restic and Restic's rest-server to have append-only backups. I'll update the rest of this post soon.
 
 [Restic](https://restic.net/) is an excellent tool for backing up files. It runs much faster than many other widely used backup programs (such as Duplicati and Borg), and it has almost all of the features one might want. [Its users include Filippo Valsorda](https://words.filippo.io/restic-cryptography/). 
 
