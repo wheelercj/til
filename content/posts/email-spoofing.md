@@ -13,4 +13,4 @@ Here's the bounce message:
 
 I didn't check the attachment. The URL of the "LEARN MORE" link is legitimate: https://support.google.com/mail/?p=NoSuchUser
 
-In this case, Google recommends marking the bounce message as spam. [Someone is sending emails from a spoofed address \- Gmail Help](https://support.google.com/mail/answer/50200?hl=en&sjid=11313421216828233515-NC)
+In this case, [Google recommends](https://support.google.com/mail/answer/50200?hl=en&sjid=11313421216828233515-NC) marking the bounce message as spam.
