@@ -1,7 +1,7 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-04-24T19:39:29-07:00
+lastmod = 2025-11-06T11:51:27-08:00
 +++
 
 Here are a bunch of neat online maps I found.
@@ -40,6 +40,7 @@ Here are a bunch of neat online maps I found.
 ## Fires
 
 - [Watch Duty - Wildfire Maps & Alerts](https://www.watchduty.org/)
+- [NASA's FIRMS (Fire Information for Resource Management System)](https://www.earthdata.nasa.gov/data/tools/firms)
 - [fire.airnow.gov | Fire and Smoke Map](https://fire.airnow.gov/)
 - [CAL FIRE | California Department of Forestry and Fire Protection](https://www.fire.ca.gov/)
 - [InciWeb the Incident Information System (wildfires)](https://inciweb.nwcg.gov/)
