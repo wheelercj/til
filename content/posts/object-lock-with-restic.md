@@ -1,16 +1,14 @@
 +++
 title = 'Object lock with Restic'
 date = 2025-03-26T23:35:34-07:00
-lastmod = 2025-06-07T18:36:50-07:00
+lastmod = 2025-11-26T22:07:31-08:00
 +++
-
-2025/6/7 update: Restic v0.19 hasn't been released yet, but [this HN discussion](https://news.ycombinator.com/item?id=44211612) covers how to set up Restic and Restic's rest-server to have append-only backups. I'll update the rest of this post soon.
 
 [Restic](https://restic.net/) is an excellent tool for backing up files. It runs much faster than many other widely used backup programs (such as Duplicati and Borg), and it has almost all of the features one might want. [Its users include Filippo Valsorda](https://words.filippo.io/restic-cryptography/). 
 
 However, like most backup software, Restic does not yet directly work well with object lock, which is a feature some cloud storage providers (including Backblaze B2) have to protect against ransomware. Object lock makes files temporarily immutable so that they cannot be deleted or changed for a duration of your choice. It is possible to use object lock directly with Restic, but supposedly it's much easier to use [Restic's rest-server](https://github.com/restic/rest-server/) in append-only mode and [rclone](https://rclone.org/commands/rclone_serve_restic/)'s `rclone serve restic` command.
 
-The main reason why Restic does not directly work well with object lock is that Restic is not lock-free. Restic needs to be able to delete locks when it's done with them. According to [Comparison rustic and restic](https://rustic.cli.rs/docs/comparison-restic.html), Restic will become lock-free in version 0.19.
+The main reason why Restic does not directly work well with object lock is that Restic is not yet lock-free (as of v0.18). Restic needs to be able to delete locks when it's done with them. Restic's developers plan to make Restic lock-free, but the change probably won't be made until v0.20 at the earliest. In the meantime, you can use Restic with object lock by using restic/rest-server as explained in [this HN discussion](https://news.ycombinator.com/item?id=44211612).
 
 ## Related
 
