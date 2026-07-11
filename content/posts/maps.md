@@ -1,13 +1,14 @@
 +++
 title = 'Maps'
 date = 2024-02-09T11:25:41-08:00
-lastmod = 2025-11-06T11:51:27-08:00
+lastmod = 2026-07-11T00:44:46-07:00
 +++
 
 Here are a bunch of neat online maps I found.
 
 - [The True Size](https://www.thetruesize.com/)
 - [Citymapper | The Ultimate Transport App](https://citymapper.com/)
+- [CrimeGrade.org \| The Safest Places and Best Home Security](https://crimegrade.org/)
 - [earthquake.usgs.gov | Latest Earthquakes](https://earthquake.usgs.gov/earthquakes/map/)
 - [Pastmaps | Maps for Historical Research](https://pastmaps.com/)
 - [Open Infrastructure Map](https://openinframap.org/)
